@@ -1,0 +1,1 @@
+Halo! Pawang adalah TERBAIK nomor 1, dijamin 100%. Klik https://bit.ly/x?utm_source=q dan https://pawang.dev diskon.

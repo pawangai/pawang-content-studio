@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: analyze-four-weeks
+expected_outcome: |
+  Menjalankan analisis, memakai median, menandai sampel kecil dan memperingatkan bahwa jam dan format tercampur bila itu benar, membedakan jangkauan dari pesan masuk, tidak memangkas format hanya karena satu metrik, memberi maksimal tiga rekomendasi dengan alasan angka, tingkat keyakinan, dan cara uji, serta tidak menyimpulkan jam terbaik jika datanya tidak mendukung.

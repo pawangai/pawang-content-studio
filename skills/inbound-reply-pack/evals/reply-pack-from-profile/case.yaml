@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: reply-pack-from-profile
+expected_outcome: |
+  File .md berisi alur 8 tahap, template komentar dan DM/WA (termasuk tanya harga, nego, follow-up bertahap, komplain, data sensitif), eskalasi, pencatatan lead, dan command /pw-b-...; harga paket dan nomor WhatsApp ditulis [ISI SENDIRI] tanpa mengarang; tidak ada template yang meminta kata sandi atau data pribadi; semua template di code block dan lolos validasi.

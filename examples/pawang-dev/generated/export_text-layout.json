@@ -1,0 +1,262 @@
+{
+  "brand": "Pawang.dev",
+  "brand_short": "Pawang",
+  "prefix": "pw",
+  "tagline": "Digitalmu liar? Serahkan ke Pawang.",
+  "cta": "Konsultasi Gratis -> pawang.dev",
+  "cta_short": "Konsultasi Gratis",
+  "url": "pawang.dev",
+  "handle": "pawang.dev",
+  "quote": "Karena digital yang jinak adalah digital yang berguna.",
+  "tone": "tenang, paham, jinak; hangat, ramah, tidak menakut-nakuti dengan istilah teknis",
+  "style": "flat modern hangat, ilustrasi bersih, sudut membulat, banyak ruang kosong, sedikit tekstur lembut",
+  "avoid": [
+    "dijamin",
+    "pasti ",
+    "100%",
+    "terbaik",
+    "nomor 1",
+    "garansi"
+  ],
+  "audience": "pemilik UMKM dan tim operasional di Indonesia (WIB)",
+  "logo_desc": "huruf P dengan lingkaran oranye dan percikan bintang, wordmark \"Pawang\" dengan \".dev\" lebih kecil di bawah kanan",
+  "pattern_elements": "percikan bintang oranye kecil, daun sage, dan siluet P",
+  "colors": [
+    {
+      "role": "dark",
+      "name": "Biru Malam",
+      "hex": "#14213D",
+      "use": "utama, tenang, tepercaya"
+    },
+    {
+      "role": "accent",
+      "name": "Api Dupa",
+      "hex": "#FF8A3D",
+      "use": "aksen, CTA, energi"
+    },
+    {
+      "role": "light",
+      "name": "Krem",
+      "hex": "#FFF6E9",
+      "use": "latar, ramah"
+    },
+    {
+      "role": "support",
+      "name": "Hijau Sage",
+      "hex": "#A7C4A0",
+      "use": "pendukung, segar"
+    },
+    {
+      "role": "offwhite",
+      "name": "Putih Tulang",
+      "hex": "#FAFAF7",
+      "use": "teks di latar gelap, bersih"
+    }
+  ],
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  },
+  "mascot": {
+    "name": "Si Liar",
+    "desc": "makhluk berbulu biru malam, syal oranye, tongkat kayu, daun hijau sage; ekspresif, imut, tidak menyeramkan"
+  },
+  "services": [
+    {
+      "name": "Pawang Web",
+      "benefit": "Website yang jinak: cepat, rapi, mudah diurus"
+    },
+    {
+      "name": "Pawang Sheet",
+      "benefit": "Angka berantakan jadi dashboard rapi"
+    },
+    {
+      "name": "Pawang Otomasi",
+      "benefit": "Kerja berulang dikerjakan sendiri"
+    },
+    {
+      "name": "Pawang Rawat",
+      "benefit": "Setelah proyek selesai, tetap ada yang jaga"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Jinak",
+      "color": "hijau",
+      "desc": "paket dasar",
+      "price": ""
+    },
+    {
+      "name": "Piawai",
+      "color": "oranye",
+      "desc": "fitur lebih lengkap",
+      "price": ""
+    },
+    {
+      "name": "Sakti",
+      "color": "ungu",
+      "desc": "custom penuh",
+      "price": ""
+    }
+  ],
+  "author": {
+    "name": "Contoh Penulis",
+    "role": "Pendiri Pawang.dev (data contoh, ganti dengan data nyata)",
+    "bio": "",
+    "experience": [],
+    "ai_disclosure": "Draf dibantu AI dan sudah saya periksa dan sunting sendiri."
+  },
+  "seo": {
+    "primary_keywords": [],
+    "audience_questions": [],
+    "blog_url": ""
+  },
+  "examples": {
+    "topic": "tanda data bisnis sudah liar",
+    "carousel": [
+      "Data bisnismu sudah liar?\nCek 4 tandanya. Geser ->",
+      "Cari satu angka,\nbuka lima file.\nKedengaran akrab?",
+      "1\nSatu angka, banyak versi\nPenjualan bulan lalu beda di tiap file. Tidak ada yang yakin mana yang benar.",
+      "2\nLaporan dibuat manual\nTiap minggu menyalin angka berjam-jam. Rawan salah dan bikin lelah.",
+      "3\nPesan pelanggan tercecer\nWhatsApp, email, DM. Ada yang terlewat tanpa disadari.",
+      "4\nHanya satu orang yang paham\nKalau dia cuti, semua berhenti.",
+      "Jinakkan sebelum makin liar.\n[ Konsultasi Gratis ]\npawang.dev"
+    ],
+    "story": [
+      {
+        "tujuan": "Hook / pertanyaan",
+        "teks": "Laporan bisnismu masih disalin manual?"
+      },
+      {
+        "tujuan": "Masalah",
+        "teks": "Rawan salah. Makan waktu. Bikin pusing."
+      },
+      {
+        "tujuan": "Solusi",
+        "teks": "Pawang Sheet: angka berantakan jadi dashboard rapi."
+      },
+      {
+        "tujuan": "CTA",
+        "teks": "Mau dicoba? Konsultasi Gratis -> pawang.dev"
+      }
+    ],
+    "reels": {
+      "title": "Si Liar Menjinakkan Data",
+      "duration": 24,
+      "rows": [
+        {
+          "waktu": "0:00-0:03",
+          "visual": "Klip 1: tokoh terlilit kabel dan kertas",
+          "teks": "Data bisnismu juga liar begini?",
+          "posisi": "Tengah atas (di bawah 250 px)",
+          "animasi": "Pop membesar, 100 px"
+        },
+        {
+          "waktu": "0:03-0:06",
+          "visual": "Klip 1 (lanjut)",
+          "teks": "Satu angka, lima file.",
+          "posisi": "Bawah tengah, di atas 450 px",
+          "animasi": "Fade in, 56 px"
+        },
+        {
+          "waktu": "0:06-0:09",
+          "visual": "Klip 2: cahaya oranye menyala",
+          "teks": "Lalu ketemu Pawang.",
+          "posisi": "Tengah atas",
+          "animasi": "Geser dari kiri, 90 px"
+        },
+        {
+          "waktu": "0:09-0:12",
+          "visual": "Klip 2 (lanjut)",
+          "teks": "Kami pahami dulu masalahnya.",
+          "posisi": "Bawah tengah",
+          "animasi": "Fade in, 52 px"
+        },
+        {
+          "waktu": "0:12-0:15",
+          "visual": "Klip 3: layar kusut tertata",
+          "teks": "Paham -> Tenang -> Jinak",
+          "posisi": "Tengah",
+          "animasi": "Muncul satu per satu"
+        },
+        {
+          "waktu": "0:15-0:18",
+          "visual": "Klip 3 (lanjut)",
+          "teks": "Data kusut jadi dashboard rapi.",
+          "posisi": "Bawah tengah",
+          "animasi": "Fade in"
+        },
+        {
+          "waktu": "0:18-0:21",
+          "visual": "Klip 4: tokoh tenang melambai",
+          "teks": "Rapi. Tenang. Jalan sendiri.",
+          "posisi": "Tengah atas",
+          "animasi": "Pop"
+        },
+        {
+          "waktu": "0:21-0:24",
+          "visual": "Klip 4 (penutup)",
+          "teks": "Tombol Konsultasi Gratis + pawang.dev + logo",
+          "posisi": "Tengah bawah, di atas 450 px",
+          "animasi": "Tombol muncul memantul"
+        }
+      ]
+    },
+    "foto": {
+      "headline": "Website jinak: cepat, rapi, mudah diurus.",
+      "subteks": "Pawang Web untuk usaha yang ingin tampil tenang di dunia digital.",
+      "formulas": [
+        [
+          "Masalah -> solusi",
+          "Laporan berantakan? Jadikan dashboard."
+        ],
+        [
+          "Angka",
+          "4 tanda data bisnismu sudah liar"
+        ],
+        [
+          "Pertanyaan",
+          "Digitalmu liar?"
+        ],
+        [
+          "Janji",
+          "Dari kusut jadi rapi, tanpa istilah ribet."
+        ]
+      ]
+    },
+    "hooks": [
+      [
+        "Pertanyaan",
+        "Laporan bisnismu masih disalin manual?"
+      ],
+      [
+        "Kejutan",
+        "Ini yang terjadi kalau data dibiarkan liar."
+      ],
+      [
+        "Angka",
+        "3 tanda websitemu bikin pelanggan pergi."
+      ],
+      [
+        "Kontras",
+        "Sebelum vs sesudah dijinakkan."
+      ],
+      [
+        "Tantangan",
+        "Coba hitung: berapa file untuk satu laporan?"
+      ]
+    ],
+    "ctas": [
+      "Konsultasi Gratis -> pawang.dev",
+      "Chat kami, kita jinakkan bareng.",
+      "Simpan video ini, kirim ke temanmu yang datanya liar.",
+      "Komentar 'INFO' dan kami kirim detailnya."
+    ],
+    "thumbnails": {
+      "thumbnail": "DATA LIAR? JINAKKAN.",
+      "og": "5 Cara Membuat Laporan Bisnis Otomatis",
+      "pinterest": "Checklist: Apakah Data Bisnismu Sudah Jinak?"
+    },
+    "caption": "Cari satu angka, buka lima file? Itu tanda data bisnismu mulai liar.\nKabar baiknya, bisa dijinakkan tanpa istilah teknis yang bikin pusing.\nGeser untuk 4 tandanya, lalu cek mana yang kamu alami.\nMau dibantu? Konsultasi Gratis -> pawang.dev\n#digitalbisnis #otomasiusaha #dashboardbisnis #umkmdigital"
+  }
+}

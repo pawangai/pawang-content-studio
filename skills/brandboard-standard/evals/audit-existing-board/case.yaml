@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: audit-existing-board
+expected_outcome: |
+  Tabel audit 16 section standar dengan status (lengkap/parsial/tidak ada) yang mendeteksi kekurangan Tier 1 lebih dulu (versi logo gelap dan favicon belum ada, tipografi belum punya font kode, microcopy belum lengkap 6 konteks, footer belum ada), diikuti tawaran patch Brand Spec.

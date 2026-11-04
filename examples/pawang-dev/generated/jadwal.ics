@@ -1,0 +1,379 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pawang-content-studio//ID
+CALSCALE:GREGORIAN
+X-WR-TIMEZONE:Asia/Jakarta
+BEGIN:VTIMEZONE
+TZID:Asia/Jakarta
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:WIB
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:content-20261026-0900-1@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261026T090000
+DTEND;TZID=Asia/Jakarta:20261026T093000
+SUMMARY:Posting: 4 tanda data bisnismu sudah liar (Carousel edukasi)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Paham\nCommand: /pw-carousel + /pw-t-carousel\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261027-1200-2@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261027T120000
+DTEND;TZID=Asia/Jakarta:20261027T123000
+SUMMARY:Posting: "Satu angka\, lima file." Hook Si Liar terlilit (Reels/Short pendek)
+DESCRIPTION:Platform: Instagram Reels\, TikTok\, YouTube Shorts\nPilar: Paham\nCommand: /pw-v-reels-hook + /pw-t-reels\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261028-1930-3@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261028T193000
+DTEND;TZID=Asia/Jakarta:20261028T200000
+SUMMARY:Posting: Seberapa sering salah angka di laporan? (polling) (Story interaktif (polling/tanya))
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Paham\nCommand: /pw-igstory + /pw-t-story\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261029-0930-4@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261029T093000
+DTEND;TZID=Asia/Jakarta:20261029T100000
+SUMMARY:Posting: Pawang Sheet: dari spreadsheet kusut ke dashboard rapi (Carousel layanan / bukti)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Jinak\nCommand: /pw-carousel + /pw-wacatalog\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261030-1200-5@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261030T120000
+DTEND;TZID=Asia/Jakarta:20261030T123000
+SUMMARY:Posting: Tips: satu sumber data\, bukan lima file (Kartu tips cepat)
+DESCRIPTION:Platform: Instagram\, X\nPilar: Paham\nCommand: /pw-tips + /pw-t-foto\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261031-1900-6@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261031T190000
+DTEND;TZID=Asia/Jakarta:20261031T193000
+SUMMARY:Posting: Si Liar bukan seram\, liar itu cuma belum dipahami (Reel/cerita karakter)
+DESCRIPTION:Platform: Reels\, TikTok\, Shorts\nPilar: Si Liar\nCommand: /pw-v-hello + /pw-t-reels\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261101-1930-7@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261101T193000
+DTEND;TZID=Asia/Jakarta:20261101T200000
+SUMMARY:Posting: Rencana pekan depan + ajakan konsultasi gratis (Testimoni / rekap pekan / ajakan)
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Ajakan\nCommand: /pw-igstory + /pw-t-cta\nMinggu: Kenali Data yang Liar
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261102-0900-8@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261102T090000
+DTEND;TZID=Asia/Jakarta:20261102T093000
+SUMMARY:Posting: Hal-hal yang membuat pengunjung meninggalkan website usaha (Carousel edukasi)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Paham\nCommand: /pw-carousel + /pw-t-carousel\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261103-1200-9@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261103T120000
+DTEND;TZID=Asia/Jakarta:20261103T123000
+SUMMARY:Posting: Landing page lama vs landing page jinak (Reels/Short pendek)
+DESCRIPTION:Platform: Instagram Reels\, TikTok\, YouTube Shorts\nPilar: Jinak\nCommand: /pw-v-beforeafter + /pw-t-reels\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261104-1930-10@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261104T193000
+DTEND;TZID=Asia/Jakarta:20261104T200000
+SUMMARY:Posting: Website kamu sudah cepat dibuka di ponsel? (kotak tanya) (Story interaktif (polling/tanya))
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Paham\nCommand: /pw-igstory + /pw-t-story\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261105-0930-11@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261105T093000
+DTEND;TZID=Asia/Jakarta:20261105T100000
+SUMMARY:Posting: Pawang Web: cepat\, rapi\, mudah diurus (Carousel layanan / bukti)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Jinak\nCommand: /pw-carousel + /pw-t-carousel\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261106-1200-12@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261106T120000
+DTEND;TZID=Asia/Jakarta:20261106T123000
+SUMMARY:Posting: Tips: judul halaman dan tombol WhatsApp yang jelas (Kartu tips cepat)
+DESCRIPTION:Platform: Instagram\, X\nPilar: Paham\nCommand: /pw-tips\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261107-1900-13@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261107T190000
+DTEND;TZID=Asia/Jakarta:20261107T193000
+SUMMARY:Posting: Si Liar menata halaman web yang berantakan (Reel/cerita karakter)
+DESCRIPTION:Platform: Reels\, TikTok\, Shorts\nPilar: Si Liar\nCommand: /pw-v-penjelasan\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261108-1930-14@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261108T193000
+DTEND;TZID=Asia/Jakarta:20261108T200000
+SUMMARY:Posting: Testimoni klien (isi dengan data nyata) (Testimoni / rekap pekan / ajakan)
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Tenang\nCommand: /pw-testimoni\nMinggu: Website yang Jinak
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261109-0900-15@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261109T090000
+DTEND;TZID=Asia/Jakarta:20261109T093000
+SUMMARY:Posting: Persiapan 11.11 untuk toko online: stok\, pesanan\, chat (Carousel edukasi)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Paham\nCommand: /pw-carousel + /pw-t-carousel\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261110-1200-16@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261110T120000
+DTEND;TZID=Asia/Jakarta:20261110T123000
+SUMMARY:Posting: Pahlawan tak terlihat di balik bisnis: sistem yang jalan sendiri (Reels/Short pendek)
+DESCRIPTION:Platform: Instagram Reels\, TikTok\, YouTube Shorts\nPilar: Paham\nCommand: /pw-v-story + /pw-t-reels\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261111-1930-17@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261111T193000
+DTEND;TZID=Asia/Jakarta:20261111T200000
+SUMMARY:Posting: 11.11: pesanan membludak\, siapa yang balas chat? (polling) (Story interaktif (polling/tanya))
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Jinak\nCommand: /pw-igstory + /pw-t-story\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261112-0930-18@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261112T093000
+DTEND;TZID=Asia/Jakarta:20261112T100000
+SUMMARY:Posting: Pawang Otomasi: 3 contoh notifikasi WhatsApp otomatis (Carousel layanan / bukti)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Jinak\nCommand: /pw-carousel + /pw-wacatalog\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261113-1200-19@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261113T120000
+DTEND;TZID=Asia/Jakarta:20261113T123000
+SUMMARY:Posting: Tips: balasan otomatis untuk pertanyaan yang sama (Kartu tips cepat)
+DESCRIPTION:Platform: Instagram\, X\nPilar: Paham\nCommand: /pw-tips\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261114-1900-20@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261114T190000
+DTEND;TZID=Asia/Jakarta:20261114T193000
+SUMMARY:Posting: Si Liar dikejar notifikasi\, lalu dijinakkan (Reel/cerita karakter)
+DESCRIPTION:Platform: Reels\, TikTok\, Shorts\nPilar: Si Liar\nCommand: /pw-v-reels-hook\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261115-1930-21@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261115T193000
+DTEND;TZID=Asia/Jakarta:20261115T200000
+SUMMARY:Posting: Persiapan 12.12: konsultasi gratis sebelum ramai (Testimoni / rekap pekan / ajakan)
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Ajakan\nCommand: /pw-promo + /pw-igstory\nMinggu: Otomasi dan Persiapan 11.11
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261116-0900-22@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261116T090000
+DTEND;TZID=Asia/Jakarta:20261116T093000
+SUMMARY:Posting: Pawang Rawat: website sudah jadi\, siapa yang menjaga? (Carousel edukasi)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Jinak\nCommand: /pw-carousel + /pw-t-carousel\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261117-1200-23@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261117T120000
+DTEND;TZID=Asia/Jakarta:20261117T123000
+SUMMARY:Posting: Update yang ditunda bisa jadi masalah (tanpa menakut-nakuti) (Reels/Short pendek)
+DESCRIPTION:Platform: Instagram Reels\, TikTok\, YouTube Shorts\nPilar: Paham\nCommand: /pw-v-penjelasan\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261118-1930-24@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261118T193000
+DTEND;TZID=Asia/Jakarta:20261118T200000
+SUMMARY:Posting: Kapan terakhir website kamu diperbarui? (polling) (Story interaktif (polling/tanya))
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Paham\nCommand: /pw-igstory\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261119-0930-25@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261119T093000
+DTEND;TZID=Asia/Jakarta:20261119T100000
+SUMMARY:Posting: Paket Jinak\, Piawai\, Sakti: mana yang cocok? (Carousel layanan / bukti)
+DESCRIPTION:Platform: Instagram (+ LinkedIn)\nPilar: Tenang\nCommand: /pw-paket + /pw-t-carousel\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261120-1200-26@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261120T120000
+DTEND;TZID=Asia/Jakarta:20261120T123000
+SUMMARY:Posting: 5 pertanyaan yang sering ditanyakan calon klien (Carousel FAQ)
+DESCRIPTION:Platform: Instagram\, X\nPilar: Tenang\nCommand: /pw-faq\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261121-1900-27@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261121T190000
+DTEND;TZID=Asia/Jakarta:20261121T193000
+SUMMARY:Posting: Si Liar Menjinakkan Data (paket 4 adegan) (Reel/cerita karakter)
+DESCRIPTION:Platform: Reels\, TikTok\, Shorts\nPilar: Si Liar\nCommand: /pw-v-cerita\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:content-20261122-1930-28@pawang-content-studio
+DTSTAMP:20261104T104425Z
+DTSTART;TZID=Asia/Jakarta:20261122T193000
+DTEND;TZID=Asia/Jakarta:20261122T200000
+SUMMARY:Posting: Rekap 4 minggu + ajakan Konsultasi Gratis (Testimoni / rekap pekan / ajakan)
+DESCRIPTION:Platform: Instagram Story\, WA Status\nPilar: Ajakan\nCommand: /pw-igstory + /pw-t-cta\nMinggu: Dijaga dan Paket
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Siap-siap posting
+END:VALARM
+END:VEVENT
+END:VCALENDAR

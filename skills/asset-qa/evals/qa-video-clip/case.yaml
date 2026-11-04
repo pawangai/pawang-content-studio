@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: qa-video-clip
+expected_outcome: |
+  Memakai qa_video.py dan melihat lembar kontak/frame; melaporkan durasi yang tidak sesuai target, tidak ada audio, lonjakan atau perubahan warna mendadak sekitar detik ke-3, teks di dalam video di zona bawah; menyarankan menambah teks di CapCut dan membuat ulang klip yang bermasalah; keputusan akhir jelas.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: caption-three-platforms
+expected_outcome: |
+  Tiga caption berbeda (Instagram, TikTok, LinkedIn) dalam code block, tidak saling menyalin, hook di baris pertama, satu CTA, hashtag 3-5, link diarahkan ke "link di bio" untuk Instagram dan TikTok, tanpa klaim berlebihan, ada alt text dan alternatif hook untuk Instagram, dan file .md dipresentasikan karena ada 3 platform.

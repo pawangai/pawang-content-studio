@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: article-from-calendar-topic
+expected_outcome: |
+  Berkas .md berfront matter (title, meta_description, slug, keyword), kerangka dengan H2 dan FAQ, riset bersumber dengan tautan nyata untuk fakta yang dikutip, tidak mengarang angka hasil (memakai [ISI SENDIRI] atau pernyataan umum), menjalankan article_check.py dan memperbaiki temuan, paket daur ulang beserta baris Content Log, dan catatan pengungkapan AI bila relevan; file dipresentasikan.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pack-without-mascot
+expected_outcome: |
+  File .md berawalan /ks- tanpa command mascot, stickerpack, paket, dan wacatalog, tanpa kata maskot di prompt visual, dengan tiga warna benar di Brand Lock, semua prompt di code block.

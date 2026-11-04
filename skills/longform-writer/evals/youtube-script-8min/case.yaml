@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: youtube-script-8min
+expected_outcome: |
+  Skrip berpenanda ## [mm:ss] mulai 00:00 dengan hook maksimal sekitar 30 detik, minimal tiga bab dengan tiap bab minimal 10 detik, kecepatan bicara wajar sekitar 150 kata per menit, catatan visual layar laptop, CTA di akhir, daftar bab untuk deskripsi dari script_check.py, tanpa data karangan.

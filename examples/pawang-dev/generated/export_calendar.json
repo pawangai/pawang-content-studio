@@ -1,0 +1,377 @@
+{
+  "brand": "Pawang.dev",
+  "brand_short": "Pawang",
+  "prefix": "pw",
+  "tagline": "Digitalmu liar? Serahkan ke Pawang.",
+  "cta": "Konsultasi Gratis -> pawang.dev",
+  "cta_short": "Konsultasi Gratis",
+  "url": "pawang.dev",
+  "handle": "pawang.dev",
+  "quote": "Karena digital yang jinak adalah digital yang berguna.",
+  "tone": "tenang, paham, jinak; hangat, ramah, tidak menakut-nakuti dengan istilah teknis",
+  "style": "flat modern hangat, ilustrasi bersih, sudut membulat, banyak ruang kosong, sedikit tekstur lembut",
+  "avoid": [
+    "dijamin",
+    "pasti ",
+    "100%",
+    "terbaik",
+    "nomor 1",
+    "garansi"
+  ],
+  "audience": "pemilik UMKM dan tim operasional di Indonesia (WIB)",
+  "logo_desc": "huruf P dengan lingkaran oranye dan percikan bintang, wordmark \"Pawang\" dengan \".dev\" lebih kecil di bawah kanan",
+  "pattern_elements": "percikan bintang oranye kecil, daun sage, dan siluet P",
+  "colors": [
+    {
+      "role": "dark",
+      "name": "Biru Malam",
+      "hex": "#14213D",
+      "use": "utama, tenang, tepercaya"
+    },
+    {
+      "role": "accent",
+      "name": "Api Dupa",
+      "hex": "#FF8A3D",
+      "use": "aksen, CTA, energi"
+    },
+    {
+      "role": "light",
+      "name": "Krem",
+      "hex": "#FFF6E9",
+      "use": "latar, ramah"
+    },
+    {
+      "role": "support",
+      "name": "Hijau Sage",
+      "hex": "#A7C4A0",
+      "use": "pendukung, segar"
+    },
+    {
+      "role": "offwhite",
+      "name": "Putih Tulang",
+      "hex": "#FAFAF7",
+      "use": "teks di latar gelap, bersih"
+    }
+  ],
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  },
+  "mascot": {
+    "name": "Si Liar",
+    "desc": "makhluk berbulu biru malam, syal oranye, tongkat kayu, daun hijau sage; ekspresif, imut, tidak menyeramkan"
+  },
+  "services": [
+    {
+      "name": "Pawang Web",
+      "benefit": "Website yang jinak: cepat, rapi, mudah diurus"
+    },
+    {
+      "name": "Pawang Sheet",
+      "benefit": "Angka berantakan jadi dashboard rapi"
+    },
+    {
+      "name": "Pawang Otomasi",
+      "benefit": "Kerja berulang dikerjakan sendiri"
+    },
+    {
+      "name": "Pawang Rawat",
+      "benefit": "Setelah proyek selesai, tetap ada yang jaga"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Jinak",
+      "color": "hijau",
+      "desc": "paket dasar",
+      "price": ""
+    },
+    {
+      "name": "Piawai",
+      "color": "oranye",
+      "desc": "fitur lebih lengkap",
+      "price": ""
+    },
+    {
+      "name": "Sakti",
+      "color": "ungu",
+      "desc": "custom penuh",
+      "price": ""
+    }
+  ],
+  "author": {
+    "name": "Contoh Penulis",
+    "role": "Pendiri Pawang.dev (data contoh, ganti dengan data nyata)",
+    "bio": "",
+    "experience": [],
+    "ai_disclosure": "Draf dibantu AI dan sudah saya periksa dan sunting sendiri."
+  },
+  "seo": {
+    "primary_keywords": [],
+    "audience_questions": [],
+    "blog_url": ""
+  },
+  "start": "2026-10-26",
+  "package": "Ringan",
+  "weeks_plan": [
+    {
+      "tema": "Kenali Data yang Liar",
+      "rows": [
+        {
+          "hari": "Senin",
+          "topik": "4 tanda data bisnismu sudah liar",
+          "command": "/pw-carousel + /pw-t-carousel"
+        },
+        {
+          "hari": "Selasa",
+          "topik": "\"Satu angka, lima file.\" Hook Si Liar terlilit",
+          "command": "/pw-v-reels-hook + /pw-t-reels"
+        },
+        {
+          "hari": "Rabu",
+          "topik": "Seberapa sering salah angka di laporan? (polling)",
+          "command": "/pw-igstory + /pw-t-story"
+        },
+        {
+          "hari": "Kamis",
+          "topik": "Pawang Sheet: dari spreadsheet kusut ke dashboard rapi",
+          "command": "/pw-carousel + /pw-wacatalog"
+        },
+        {
+          "hari": "Jumat",
+          "topik": "Tips: satu sumber data, bukan lima file",
+          "command": "/pw-tips + /pw-t-foto"
+        },
+        {
+          "hari": "Sabtu",
+          "topik": "Si Liar bukan seram, liar itu cuma belum dipahami",
+          "command": "/pw-v-hello + /pw-t-reels"
+        },
+        {
+          "hari": "Minggu",
+          "topik": "Rencana pekan depan + ajakan konsultasi gratis",
+          "command": "/pw-igstory + /pw-t-cta",
+          "pilar": "Ajakan"
+        }
+      ]
+    },
+    {
+      "tema": "Website yang Jinak",
+      "rows": [
+        {
+          "hari": "Senin",
+          "topik": "Hal-hal yang membuat pengunjung meninggalkan website usaha",
+          "command": "/pw-carousel + /pw-t-carousel"
+        },
+        {
+          "hari": "Selasa",
+          "topik": "Landing page lama vs landing page jinak",
+          "command": "/pw-v-beforeafter + /pw-t-reels",
+          "pilar": "Jinak"
+        },
+        {
+          "hari": "Rabu",
+          "topik": "Website kamu sudah cepat dibuka di ponsel? (kotak tanya)",
+          "command": "/pw-igstory + /pw-t-story"
+        },
+        {
+          "hari": "Kamis",
+          "topik": "Pawang Web: cepat, rapi, mudah diurus",
+          "command": "/pw-carousel + /pw-t-carousel"
+        },
+        {
+          "hari": "Jumat",
+          "topik": "Tips: judul halaman dan tombol WhatsApp yang jelas",
+          "command": "/pw-tips"
+        },
+        {
+          "hari": "Sabtu",
+          "topik": "Si Liar menata halaman web yang berantakan",
+          "command": "/pw-v-penjelasan"
+        },
+        {
+          "hari": "Minggu",
+          "topik": "Testimoni klien (isi dengan data nyata)",
+          "command": "/pw-testimoni"
+        }
+      ]
+    },
+    {
+      "tema": "Otomasi dan Persiapan 11.11",
+      "rows": [
+        {
+          "hari": "Senin",
+          "topik": "Persiapan 11.11 untuk toko online: stok, pesanan, chat",
+          "command": "/pw-carousel + /pw-t-carousel"
+        },
+        {
+          "hari": "Selasa",
+          "topik": "Pahlawan tak terlihat di balik bisnis: sistem yang jalan sendiri",
+          "command": "/pw-v-story + /pw-t-reels"
+        },
+        {
+          "hari": "Rabu",
+          "topik": "11.11: pesanan membludak, siapa yang balas chat? (polling)",
+          "command": "/pw-igstory + /pw-t-story",
+          "pilar": "Jinak"
+        },
+        {
+          "hari": "Kamis",
+          "topik": "Pawang Otomasi: 3 contoh notifikasi WhatsApp otomatis",
+          "command": "/pw-carousel + /pw-wacatalog"
+        },
+        {
+          "hari": "Jumat",
+          "topik": "Tips: balasan otomatis untuk pertanyaan yang sama",
+          "command": "/pw-tips"
+        },
+        {
+          "hari": "Sabtu",
+          "topik": "Si Liar dikejar notifikasi, lalu dijinakkan",
+          "command": "/pw-v-reels-hook"
+        },
+        {
+          "hari": "Minggu",
+          "topik": "Persiapan 12.12: konsultasi gratis sebelum ramai",
+          "command": "/pw-promo + /pw-igstory",
+          "pilar": "Ajakan"
+        }
+      ]
+    },
+    {
+      "tema": "Dijaga dan Paket",
+      "rows": [
+        {
+          "hari": "Senin",
+          "topik": "Pawang Rawat: website sudah jadi, siapa yang menjaga?",
+          "command": "/pw-carousel + /pw-t-carousel",
+          "pilar": "Jinak"
+        },
+        {
+          "hari": "Selasa",
+          "topik": "Update yang ditunda bisa jadi masalah (tanpa menakut-nakuti)",
+          "command": "/pw-v-penjelasan"
+        },
+        {
+          "hari": "Rabu",
+          "topik": "Kapan terakhir website kamu diperbarui? (polling)",
+          "command": "/pw-igstory"
+        },
+        {
+          "hari": "Kamis",
+          "topik": "Paket Jinak, Piawai, Sakti: mana yang cocok?",
+          "command": "/pw-paket + /pw-t-carousel",
+          "pilar": "Tenang"
+        },
+        {
+          "hari": "Jumat",
+          "topik": "5 pertanyaan yang sering ditanyakan calon klien",
+          "command": "/pw-faq",
+          "pilar": "Tenang",
+          "format": "Carousel FAQ"
+        },
+        {
+          "hari": "Sabtu",
+          "topik": "Si Liar Menjinakkan Data (paket 4 adegan)",
+          "command": "/pw-v-cerita"
+        },
+        {
+          "hari": "Minggu",
+          "topik": "Rekap 4 minggu + ajakan Konsultasi Gratis",
+          "command": "/pw-igstory + /pw-t-cta",
+          "pilar": "Ajakan"
+        }
+      ]
+    }
+  ],
+  "pillars": [
+    {
+      "name": "Paham",
+      "goal": "Membuktikan Pawang memahami masalah",
+      "share": 35,
+      "formats": "carousel, reels tips"
+    },
+    {
+      "name": "Jinak",
+      "goal": "Menjelaskan layanan",
+      "share": 25,
+      "formats": "carousel layanan, before-after"
+    },
+    {
+      "name": "Tenang",
+      "goal": "Testimoni, FAQ, paket",
+      "share": 20,
+      "formats": "kartu testimoni, FAQ"
+    },
+    {
+      "name": "Si Liar",
+      "goal": "Hiburan dan karakter",
+      "share": 15,
+      "formats": "reel maskot"
+    },
+    {
+      "name": "Ajakan",
+      "goal": "Mendatangkan konsultasi",
+      "share": 5,
+      "formats": "story promo"
+    }
+  ],
+  "rhythm": [
+    {
+      "hari": "Senin",
+      "format": "Carousel edukasi",
+      "platform": "Instagram (+ LinkedIn)",
+      "jam": "09:00",
+      "pilar": "Paham",
+      "minimal": true
+    },
+    {
+      "hari": "Selasa",
+      "format": "Reels/Short pendek",
+      "platform": "Instagram Reels, TikTok, YouTube Shorts",
+      "jam": "12:00",
+      "pilar": "Paham",
+      "minimal": false
+    },
+    {
+      "hari": "Rabu",
+      "format": "Story interaktif (polling/tanya)",
+      "platform": "Instagram Story, WA Status",
+      "jam": "19:30",
+      "pilar": "Paham",
+      "minimal": false
+    },
+    {
+      "hari": "Kamis",
+      "format": "Carousel layanan / bukti",
+      "platform": "Instagram (+ LinkedIn)",
+      "jam": "09:30",
+      "pilar": "Jinak",
+      "minimal": true
+    },
+    {
+      "hari": "Jumat",
+      "format": "Kartu tips cepat",
+      "platform": "Instagram, X",
+      "jam": "12:00",
+      "pilar": "Paham",
+      "minimal": false
+    },
+    {
+      "hari": "Sabtu",
+      "format": "Reel/cerita karakter",
+      "platform": "Reels, TikTok, Shorts",
+      "jam": "19:00",
+      "pilar": "Si Liar",
+      "minimal": true
+    },
+    {
+      "hari": "Minggu",
+      "format": "Testimoni / rekap pekan / ajakan",
+      "platform": "Instagram Story, WA Status",
+      "jam": "19:30",
+      "pilar": "Tenang",
+      "minimal": false
+    }
+  ]
+}

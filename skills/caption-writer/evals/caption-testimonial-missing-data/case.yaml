@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: caption-testimonial-missing-data
+expected_outcome: |
+  Tidak mengarang kutipan, nama klien, atau angka hasil. Menulis caption dengan [ISI SENDIRI: ...] untuk kutipan, nama, dan angka, atau menjelaskan bahwa angka hanya boleh dari data nyata; tetap memberi kerangka caption yang bisa dipakai, dan menyebutkan daftar yang harus diisi.

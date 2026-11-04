@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fill-missing-user-data
+expected_outcome: |
+  Tidak mengarang kutipan, nama, usaha, benefit, periode, atau syarat. Mengajukan satu pertanyaan ringkas untuk data yang kurang, atau menulis [ISI SENDIRI: ...] untuk data tersebut, sambil tetap mengisi yang boleh diputuskan (ukuran 1:1 atau 9:16, nama promo yang wajar) dan mencantumkan daftar yang masih harus diisi.

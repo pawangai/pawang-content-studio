@@ -1,0 +1,6 @@
+# Dependensi Python untuk skill asset-qa dan brand-profile-builder (colors)
+# 13 skill lainnya hanya memakai pustaka standar Python 3.9+
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+pytesseract>=0.3.10

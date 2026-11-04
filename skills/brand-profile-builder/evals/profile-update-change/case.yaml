@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profile-update-change
+expected_outcome: |
+  Menampilkan perbedaan sebelum dan sesudah (warna aksen dan CTA), memperbarui profile.json sebagai satu-satunya sumber, memvalidasi ulang termasuk kontras warna baru, mengekspor ulang ke command-pack dan caption, dan tidak mengubah field lain; menandai nomor WhatsApp placeholder "62812xxxx" sebagai belum lengkap.

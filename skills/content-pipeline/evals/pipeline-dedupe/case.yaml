@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pipeline-dedupe
+expected_outcome: |
+  Menjalankan pemeriksa konten ganda terhadap log, menyatakan carousel "tanda data liar" sebagai duplikat atau mirip dengan baris yang cocok (tanggal, status), menyatakan reel kopi baru, menawarkan sudut baru atau daur ulang untuk yang mirip, tanpa menghapus atau menimpa baris log.

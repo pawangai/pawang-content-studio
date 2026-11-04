@@ -1,0 +1,114 @@
+{
+  "brand": "Pawang.dev",
+  "brand_short": "Pawang",
+  "prefix": "pw",
+  "tagline": "Digitalmu liar? Serahkan ke Pawang.",
+  "cta": "Konsultasi Gratis -> pawang.dev",
+  "cta_short": "Konsultasi Gratis",
+  "url": "pawang.dev",
+  "handle": "pawang.dev",
+  "quote": "Karena digital yang jinak adalah digital yang berguna.",
+  "tone": "tenang, paham, jinak; hangat, ramah, tidak menakut-nakuti dengan istilah teknis",
+  "style": "flat modern hangat, ilustrasi bersih, sudut membulat, banyak ruang kosong, sedikit tekstur lembut",
+  "avoid": [
+    "dijamin",
+    "pasti ",
+    "100%",
+    "terbaik",
+    "nomor 1",
+    "garansi"
+  ],
+  "audience": "pemilik UMKM dan tim operasional di Indonesia (WIB)",
+  "logo_desc": "huruf P dengan lingkaran oranye dan percikan bintang, wordmark \"Pawang\" dengan \".dev\" lebih kecil di bawah kanan",
+  "pattern_elements": "percikan bintang oranye kecil, daun sage, dan siluet P",
+  "colors": [
+    {
+      "role": "dark",
+      "name": "Biru Malam",
+      "hex": "#14213D",
+      "use": "utama, tenang, tepercaya"
+    },
+    {
+      "role": "accent",
+      "name": "Api Dupa",
+      "hex": "#FF8A3D",
+      "use": "aksen, CTA, energi"
+    },
+    {
+      "role": "light",
+      "name": "Krem",
+      "hex": "#FFF6E9",
+      "use": "latar, ramah"
+    },
+    {
+      "role": "support",
+      "name": "Hijau Sage",
+      "hex": "#A7C4A0",
+      "use": "pendukung, segar"
+    },
+    {
+      "role": "offwhite",
+      "name": "Putih Tulang",
+      "hex": "#FAFAF7",
+      "use": "teks di latar gelap, bersih"
+    }
+  ],
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  },
+  "mascot": {
+    "name": "Si Liar",
+    "desc": "makhluk berbulu biru malam, syal oranye, tongkat kayu, daun hijau sage; ekspresif, imut, tidak menyeramkan"
+  },
+  "services": [
+    {
+      "name": "Pawang Web",
+      "benefit": "Website yang jinak: cepat, rapi, mudah diurus"
+    },
+    {
+      "name": "Pawang Sheet",
+      "benefit": "Angka berantakan jadi dashboard rapi"
+    },
+    {
+      "name": "Pawang Otomasi",
+      "benefit": "Kerja berulang dikerjakan sendiri"
+    },
+    {
+      "name": "Pawang Rawat",
+      "benefit": "Setelah proyek selesai, tetap ada yang jaga"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Jinak",
+      "color": "hijau",
+      "desc": "paket dasar",
+      "price": ""
+    },
+    {
+      "name": "Piawai",
+      "color": "oranye",
+      "desc": "fitur lebih lengkap",
+      "price": ""
+    },
+    {
+      "name": "Sakti",
+      "color": "ungu",
+      "desc": "custom penuh",
+      "price": ""
+    }
+  ],
+  "author": {
+    "name": "Contoh Penulis",
+    "role": "Pendiri Pawang.dev (data contoh, ganti dengan data nyata)",
+    "bio": "",
+    "experience": [],
+    "ai_disclosure": "Draf dibantu AI dan sudah saya periksa dan sunting sendiri."
+  },
+  "seo": {
+    "primary_keywords": [],
+    "audience_questions": [],
+    "blog_url": ""
+  }
+}

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: calendar-4-weeks
+expected_outcome: |
+  File .md jadwal 4 minggu mulai hari Senin, paket Ringan, dengan tabel bertanggal (hari, jam WIB, platform, format, pilar, topik, command /pw-...), pilar berporsi 100%, command berawalan /pw-, tanpa topik duplikat, catatan bahwa jam posting adalah hipotesis, gudang topik, alur produksi, command /pw-j-..., dan evaluasi.

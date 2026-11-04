@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pipeline-start-session
+expected_outcome: |
+  Memeriksa konektor yang tersedia (tanpa berasumsi), memberi rencana bertahap dengan urutan skill yang benar (brandboard-standard atau profil, lalu command, kalender, produksi, QA, terbit, belajar), menyebut struktur folder Drive dan Content Log untuk mencegah konten ganda, dan menegaskan konfirmasi sebelum menulis ke Drive atau Calendar.

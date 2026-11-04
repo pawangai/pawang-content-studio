@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: qa-story-image
+expected_outcome: |
+  Laporan berisi keputusan akhir dan tabel temuan, termasuk teks "Konsultasi Gratis" yang tidak ditemukan, warna hijau di luar palet, teks (URL) di zona bawah story, dan teks yang terlalu dekat tepi kanan; ejaan dikonfirmasi dengan mata, bukan hanya OCR; prompt perbaikan siap tempel di code block, satu masalah per prompt, tanpa mengarang temuan yang tidak diperiksa.

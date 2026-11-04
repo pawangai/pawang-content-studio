@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: text-pack-no-mascot
+expected_outcome: |
+  File .md berawalan /ks-t-, tanpa menyebut maskot, contoh teks bertema menyeduh kopi, reels 15 detik tanpa celah waktu dan lolos lint, semua di code block.

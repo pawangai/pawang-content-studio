@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: board-from-brief
+expected_outcome: |
+  Brand Spec Markdown dengan cakupan bertingkat (default) berisi seluruh 7 section Tier 1 wajib (Hero, 6 variasi logo termasuk versi gelap dan favicon, palet warna dengan hex dan peran, tipografi dengan font kode dan label penggunaan, gaya bahasa dengan minimal 6 microcopy dan prinsip, 3 contoh penerapan, footer), section yang dilewati dicatat alasannya, prompt gambar mengikuti urutan layout kanvas, dan daftar [ASUMSI] dirangkum di akhir.

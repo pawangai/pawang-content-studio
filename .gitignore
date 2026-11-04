@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+examples/pawang-dev/generated/*.png
+skills/*.zip
+*_report.md

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fill-three-commands
+expected_outcome: |
+  Tiga command terisi lengkap dalam code block tanpa kurung kurawal tersisa, teks di luar isian tidak berubah, headline maksimal 8 kata dan subteks maksimal 15 kata, opsi dipilih satu (bukan memakai garis miring), pesan/hook konsisten antar-command, aksi video konkret, tidak ada data karangan, dan tidak membuat file karena hanya 3 command.

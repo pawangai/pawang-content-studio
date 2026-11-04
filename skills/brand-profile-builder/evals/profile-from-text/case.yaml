@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: profile-from-text
+expected_outcome: |
+  profile.json valid dengan prefix 2-3 huruf (mis. ks), tiga warna berrole dark/accent/light dan hex benar, tanpa mengarang layanan/harga/kontak, tabel kontras dilaporkan (Jingga di atas Susu kemungkinan kontras rendah), Brand Lock dan Voice Lock dikeluarkan, daftar field kosong disebut, dan petunjuk ekspor ke skill lain.

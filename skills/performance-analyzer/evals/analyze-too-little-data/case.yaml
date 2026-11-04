@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: analyze-too-little-data
+expected_outcome: |
+  Jujur bahwa lima posting tidak cukup untuk menentukan jam terbaik, tidak mengarang kesimpulan dari satu reel, menyarankan kumpulan data minimal dan templat pencatatan, dan menawarkan desain uji sederhana untuk jam posting.

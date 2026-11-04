@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: quora-answer-with-brand
+expected_outcome: |
+  Mengecek kebijakan Quora terbaru lewat pencarian (atau menyatakan tidak bisa memverifikasi), menulis jawaban yang langsung menjawab dengan langkah konkret, mengungkapkan hubungan dengan Pawang.dev, paling banyak satu tautan di bagian akhir, tanpa klaim hasil atau angka klien yang tidak diberikan user (memakai [ISI SENDIRI] atau pernyataan umum), menjalankan answer_check.py dan menyebut hasilnya, serta memberi baris Content Log.

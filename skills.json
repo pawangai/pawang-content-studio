@@ -1,0 +1,89 @@
+{
+  "repo": "pawang-content-studio",
+  "skills": [
+    {
+      "name": "content-pipeline",
+      "stage": 0,
+      "role": "pengarah alur, workspace, anti duplikat",
+      "short_description": "Pengarah alur konten end-to-end (pilih skill per tahap, cek konten ganda lewat Content Log, catat ke Drive/Sheets, jadwalkan ke Calendar). Pakai saat memulai sesi atau bingung langkah berikutnya."
+    },
+    {
+      "name": "brandboard-standard",
+      "stage": 1,
+      "role": "brand board dan Brand Spec baku",
+      "short_description": "Buat, audit, atau samakan brand board satu halaman dengan 16 section standar, menghasilkan Brand Spec Markdown dan prompt gambar. Pakai saat user minta brand board atau brand guideline."
+    },
+    {
+      "name": "brand-profile-builder",
+      "stage": 1,
+      "role": "profil brand tunggal (profile.json)",
+      "short_description": "Ubah brand board, Brand Spec, atau deskripsi jadi profile.json tunggal, cek kontras warna, buat Brand/Voice Lock, ekspor ke skill lain. Pakai saat user bilang ini brand saya atau ganti data brand."
+    },
+    {
+      "name": "brand-command-pack",
+      "stage": 2,
+      "role": "command gambar untuk ChatGPT",
+      "short_description": "Buat file command prompt gambar siap salin untuk ChatGPT (logo, carousel, story, OG, feature image, X, Pinterest, iklan, mockup) dari brand board. Pakai saat user minta kumpulan command konten."
+    },
+    {
+      "name": "flow-video-command-pack",
+      "stage": 2,
+      "role": "command video untuk Google Flow",
+      "short_description": "Buat file command prompt video siap salin untuk Google Flow (hook reels, story, cerita 4 adegan, before-after, transisi) dari gambar ChatGPT. Pakai saat user mau video pendek atau animasi maskot."
+    },
+    {
+      "name": "content-text-layout-pack",
+      "stage": 2,
+      "role": "panduan teks, layout, dan waktu",
+      "short_description": "Buat panduan teks, layout, ukuran font, zona aman, dan detik tampil teks untuk carousel, story, reel, thumbnail di Canva atau CapCut, plus command pembuat teks. Pakai saat bingung teks dan layout."
+    },
+    {
+      "name": "content-calendar-pack",
+      "stage": 3,
+      "role": "jadwal konten bertanggal",
+      "short_description": "Buat jadwal konten bertanggal (hari, jam WIB, platform, format, pilar, topik, command), plus gudang topik dan evaluasi. Pakai saat user bingung posting apa, kapan, dan topiknya."
+    },
+    {
+      "name": "command-filler",
+      "stage": 4,
+      "role": "mengisi {kurung kurawal} pada command",
+      "short_description": "Isi semua isian kurung kurawal pada command prompt berdasarkan topik user sampai siap tempel, patuhi batas kata, tandai data wajib dari user. Pakai saat command masih berisi isian."
+    },
+    {
+      "name": "caption-writer",
+      "stage": 4,
+      "role": "caption multi-platform",
+      "short_description": "Tulis caption siap unggah per platform (Instagram, TikTok, LinkedIn, X, Pinterest, YouTube Shorts) dengan hook, CTA, hashtag, alt text, dan cek batas karakter. Pakai saat user minta caption."
+    },
+    {
+      "name": "asset-qa",
+      "stage": 5,
+      "role": "pemeriksa kualitas gambar dan video",
+      "short_description": "Periksa gambar atau video hasil AI (ejaan, palet warna, zona aman, kontras, logo atau karakter berubah, glitch video), lalu tulis prompt perbaikan. Pakai saat user minta cek hasil."
+    },
+    {
+      "name": "inbound-reply-pack",
+      "stage": 7,
+      "role": "balasan komentar, DM, WhatsApp",
+      "short_description": "Siapkan alur dan template balasan komentar, DM, dan WhatsApp sampai konsultasi, aturan eskalasi, pencatatan lead, dan balas pesan nyata. Pakai saat user tanya cara membalas calon klien."
+    },
+    {
+      "name": "performance-analyzer",
+      "stage": 8,
+      "role": "analisis performa dan revisi jadwal",
+      "short_description": "Analisis data Insights 4 minggu (jam, hari, format, pilar terbaik) dengan median dan peringatan sampel kecil, lalu revisi kalender. Pakai saat user menempel data statistik posting."
+    },
+    {
+      "name": "quora-answer-writer",
+      "stage": 4,
+      "role": "jawaban Quora yang jujur dan bermanfaat",
+      "short_description": "Tulis jawaban Quora yang bermanfaat dan jujur (cek kebijakan, struktur, pengungkapan brand, satu tautan) dengan pemeriksa tautan, promosi, dan klaim. Pakai saat user menyebut Quora atau Q&A."
+    },
+    {
+      "name": "longform-writer",
+      "stage": 4,
+      "role": "artikel, newsletter, skrip YouTube",
+      "short_description": "Tulis artikel blog SEO, Medium, LinkedIn Article, newsletter, dan skrip YouTube berbasis riset bersumber, dengan pemeriksa otomatis dan rencana daur ulang. Pakai saat user minta tulisan panjang."
+    }
+  ]
+}

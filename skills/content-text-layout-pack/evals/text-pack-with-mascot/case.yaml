@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: text-pack-with-mascot
+expected_outcome: |
+  File .md dengan bagian aturan dasar, carousel 7 slide berisi teks contoh, story, reels detik demi detik tanpa celah, thumbnail, caption, command /pw-t-..., dan langkah Canva/CapCut. Hook maksimal 8 kata, teks video maksimal 6 kata per baris, tampil sesuai rumus durasi. Semua teks contoh dan prompt di code block.

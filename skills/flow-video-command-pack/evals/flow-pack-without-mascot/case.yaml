@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: flow-pack-without-mascot
+expected_outcome: |
+  File .md berawalan /ks-v-, tanpa command hello, dialog, ganti-sudut; memakai Visual Lock (bukan Character Lock); paket 4 adegan bertema kopi dengan adegan yang masuk akal tanpa karakter (idealnya scenes kustom); semua prompt di code block.

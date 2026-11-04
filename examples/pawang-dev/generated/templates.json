@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "c001",
+    "command": "/pw-logo",
+    "variant": "Singkat",
+    "text": "/pw-logo Versi {horizontal / stacked / ikon saja / satu warna / gelap} di latar bersih.",
+    "placeholders": [
+      {
+        "hint": "horizontal / stacked / ikon saja / satu warna / gelap",
+        "options": [
+          "horizontal",
+          "stacked",
+          "ikon saja",
+          "satu warna",
+          "gelap"
+        ],
+        "raw": "{horizontal / stacked / ikon saja / satu warna / gelap}"
+      }
+    ]
+  },
+  {
+    "id": "c002",
+    "command": "/pw-logo",
+    "variant": "Detail",
+    "text": "/pw-logo Buat ulang logo Pawang.dev sesuai brand board: huruf P dengan lingkaran oranye dan percikan bintang, wordmark \"Pawang\" dengan \".dev\" lebih kecil di bawah kanan. Versi {horizontal}. Latar {Krem #FFF6E9 / Biru Malam #14213D / putih}. Vektor bersih, tepi tajam, proporsi sama persis dengan board, tanpa efek bayangan, ruang bersih di sekeliling logo. Tampilkan juga versi kecil 64px untuk uji keterbacaan.",
+    "placeholders": [
+      {
+        "hint": "horizontal",
+        "raw": "{horizontal}"
+      },
+      {
+        "hint": "Krem #FFF6E9 / Biru Malam #14213D / putih",
+        "options": [
+          "Krem #FFF6E9",
+          "Biru Malam #14213D",
+          "putih"
+        ],
+        "raw": "{Krem #FFF6E9 / Biru Malam #14213D / putih}"
+      }
+    ]
+  },
+  {
+    "id": "c003",
+    "command": "/pw-profil",
+    "variant": "Singkat",
+    "text": "/pw-profil Foto profil bulat untuk {Instagram / X / LinkedIn / WhatsApp Business}.",
+    "placeholders": [
+      {
+        "hint": "Instagram / X / LinkedIn / WhatsApp Business",
+        "options": [
+          "Instagram",
+          "X",
+          "LinkedIn",
+          "WhatsApp Business"
+        ],
+        "raw": "{Instagram / X / LinkedIn / WhatsApp Business}"
+      }
+    ]
+  },
+  {
+    "id": "c004",
+    "command": "/pw-profil",
+    "variant": "Detail",
+    "text": "/pw-profil Foto profil {platform}: logo Pawang.dev di tengah area aman lingkaran, latar {Biru Malam #14213D / Krem #FFF6E9}, tanpa teks tambahan, kontras tinggi, tetap jelas pada ukuran 110px. Rasio 1:1.",
+    "placeholders": [
+      {
+        "hint": "platform",
+        "raw": "{platform}"
+      },
+      {
+        "hint": "Biru Malam #14213D / Krem #FFF6E9",
+        "options": [
+          "Biru Malam #14213D",
+          "Krem #FFF6E9"
+        ],
+        "raw": "{Biru Malam #14213D / Krem #FFF6E9}"
+      }
+    ]
+  },
+  {
+    "id": "c005",
+    "command": "/pw-mascot",
+    "variant": "Singkat",
+    "text": "/pw-mascot Si Liar {pose / aksi}.",
+    "placeholders": [
+      {
+        "hint": "pose / aksi",
+        "options": [
+          "pose",
+          "aksi"
+        ],
+        "raw": "{pose / aksi}"
+      }
+    ]
+  },
+  {
+    "id": "c006",
+    "command": "/pw-mascot",
+    "variant": "Detail",
+    "text": "/pw-mascot Si Liar maskot Pawang.dev sedang {memegang laptop / membawa palu perbaikan / mengirim notifikasi}. Pertahankan desain karakter persis seperti board: makhluk berbulu biru malam, syal oranye, tongkat kayu, daun hijau sage; ekspresif, imut, tidak menyeramkan. Ekspresi {senang / bingung / bangga}. Latar {bersih / Krem #FFF6E9 / lanskap lembut}. Gaya flat modern hangat, ilustrasi bersih, sudut membulat, banyak ruang kosong, sedikit tekstur lembut.",
+    "placeholders": [
+      {
+        "hint": "memegang laptop / membawa palu perbaikan / mengirim notifikasi",
+        "options": [
+          "memegang laptop",
+          "membawa palu perbaikan",
+          "mengirim notifikasi"
+        ],
+        "raw": "{memegang laptop / membawa palu perbaikan / mengirim notifikasi}"
+      },
+      {
+        "hint": "senang / bingung / bangga",
+        "options": [
+          "senang",
+          "bingung",
+          "bangga"
+        ],
+        "raw": "{senang / bingung / bangga}"
+      },
+      {
+        "hint": "bersih / Krem #FFF6E9 / lanskap lembut",
+        "options": [
+          "bersih",
+          "Krem #FFF6E9",
+          "lanskap lembut"
+        ],
+        "raw": "{bersih / Krem #FFF6E9 / lanskap lembut}"
+      }
+    ]
+  },
+  {
+    "id": "c007",
+    "command": "/pw-brandboard",
+    "variant": "Singkat",
+    "text": "/pw-brandboard Papan identitas brand untuk {proyek / klien}.",
+    "placeholders": [
+      {
+        "hint": "proyek / klien",
+        "options": [
+          "proyek",
+          "klien"
+        ],
+        "raw": "{proyek / klien}"
+      }
+    ]
+  },
+  {
+    "id": "c008",
+    "command": "/pw-brandboard",
+    "variant": "Detail",
+    "text": "/pw-brandboard Brand identity board seperti gambar terlampir, tetapi untuk {nama brand}: logo, palet 5 warna dengan kode hex, tipografi, maskot jika ada, nilai brand, mockup ponsel, dan profil Instagram. Tata letak bersih dan rapi.",
+    "placeholders": [
+      {
+        "hint": "nama brand",
+        "raw": "{nama brand}"
+      }
+    ]
+  },
+  {
+    "id": "c009",
+    "command": "/pw-carousel",
+    "variant": "Singkat",
+    "text": "/pw-carousel {topik}. 7 slide, slide 1 dulu.",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c010",
+    "command": "/pw-carousel",
+    "variant": "Detail",
+    "text": "/pw-carousel Topik: \"{topik}\". Format IG 4:5 (1080x1350). Struktur 7 slide:\n1. Hook (judul besar, Si Liar mengintip)\n2. Masalah yang dirasakan audiens\n3-6. Satu poin per slide, angka besar, judul 5-7 kata, penjelasan maksimal 2 kalimat\n7. CTA \"Konsultasi Gratis → pawang.dev\" dengan Si Liar dan tombol Api Dupa\nLatar bergantian Krem dan Biru Malam, aksen Api Dupa, nomor slide kecil di pojok, logo kecil di footer, panah geser di slide 1-6. Buat **slide 1 saja** dulu, lalu tunggu perintah \"lanjut slide berikutnya, gaya identik\".",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c011",
+    "command": "/pw-igpost",
+    "variant": "Singkat",
+    "text": "/pw-igpost {pesan singkat}.",
+    "placeholders": [
+      {
+        "hint": "pesan singkat",
+        "raw": "{pesan singkat}"
+      }
+    ]
+  },
+  {
+    "id": "c012",
+    "command": "/pw-igpost",
+    "variant": "Detail",
+    "text": "/pw-igpost Post Instagram 4:5. Headline \"{headline maks 8 kata}\", subteks \"{subteks maks 15 kata}\". Visual {Si Liar / ilustrasi layanan Pawang}. Latar {Krem / Biru Malam}, aksen Api Dupa, logo kecil di pojok bawah, CTA \"pawang.dev\".",
+    "placeholders": [
+      {
+        "hint": "headline maks 8 kata",
+        "max_words": 8,
+        "raw": "{headline maks 8 kata}"
+      },
+      {
+        "hint": "subteks maks 15 kata",
+        "max_words": 15,
+        "raw": "{subteks maks 15 kata}"
+      },
+      {
+        "hint": "Si Liar / ilustrasi layanan Pawang",
+        "options": [
+          "Si Liar",
+          "ilustrasi layanan Pawang"
+        ],
+        "raw": "{Si Liar / ilustrasi layanan Pawang}"
+      },
+      {
+        "hint": "Krem / Biru Malam",
+        "options": [
+          "Krem",
+          "Biru Malam"
+        ],
+        "raw": "{Krem / Biru Malam}"
+      }
+    ]
+  },
+  {
+    "id": "c013",
+    "command": "/pw-igstory",
+    "variant": "Singkat",
+    "text": "/pw-igstory {tujuan: promo / tips / testimoni / poll}.",
+    "placeholders": [
+      {
+        "hint": "tujuan: promo / tips / testimoni / poll",
+        "options": [
+          "tujuan: promo",
+          "tips",
+          "testimoni",
+          "poll"
+        ],
+        "raw": "{tujuan: promo / tips / testimoni / poll}"
+      }
+    ]
+  },
+  {
+    "id": "c014",
+    "command": "/pw-igstory",
+    "variant": "Detail",
+    "text": "/pw-igstory Story Instagram 9:16 (1080x1920) tentang \"{pesan}\". Judul besar di sepertiga atas, Si Liar di tengah, tombol CTA Api Dupa \"{teks CTA}\" di sepertiga bawah. Sisakan 250px kosong di atas dan bawah untuk UI Instagram. Latar {Krem / Biru Malam}.",
+    "placeholders": [
+      {
+        "hint": "pesan",
+        "raw": "{pesan}"
+      },
+      {
+        "hint": "teks CTA",
+        "raw": "{teks CTA}"
+      },
+      {
+        "hint": "Krem / Biru Malam",
+        "options": [
+          "Krem",
+          "Biru Malam"
+        ],
+        "raw": "{Krem / Biru Malam}"
+      }
+    ]
+  },
+  {
+    "id": "c015",
+    "command": "/pw-reelcover",
+    "variant": "Singkat",
+    "text": "/pw-reelcover {judul reel}.",
+    "placeholders": [
+      {
+        "hint": "judul reel",
+        "raw": "{judul reel}"
+      }
+    ]
+  },
+  {
+    "id": "c016",
+    "command": "/pw-reelcover",
+    "variant": "Detail",
+    "text": "/pw-reelcover Cover Reels 9:16 dengan judul \"{judul maks 6 kata}\", Si Liar, latar Biru Malam #14213D, teks Putih Tulang dengan satu kata di-highlight Api Dupa. Area aman tengah 1:1 agar tetap terbaca di grid profil.",
+    "placeholders": [
+      {
+        "hint": "judul maks 6 kata",
+        "max_words": 6,
+        "raw": "{judul maks 6 kata}"
+      }
+    ]
+  },
+  {
+    "id": "c017",
+    "command": "/pw-wastory",
+    "variant": "Singkat",
+    "text": "/pw-wastory {promo / info / testimoni}.",
+    "placeholders": [
+      {
+        "hint": "promo / info / testimoni",
+        "options": [
+          "promo",
+          "info",
+          "testimoni"
+        ],
+        "raw": "{promo / info / testimoni}"
+      }
+    ]
+  },
+  {
+    "id": "c018",
+    "command": "/pw-wastory",
+    "variant": "Detail",
+    "text": "/pw-wastory Status WhatsApp 9:16 (1080x1920). Pesan: \"{pesan maks 12 kata}\". Nada hangat dan ramah. Si Liar di bawah, teks besar di atas, tombol \"Chat Kami\" Api Dupa. Latar Krem, aksen Hijau Sage. Teks sangat besar agar terbaca di layar kecil.",
+    "placeholders": [
+      {
+        "hint": "pesan maks 12 kata",
+        "max_words": 12,
+        "raw": "{pesan maks 12 kata}"
+      }
+    ]
+  },
+  {
+    "id": "c019",
+    "command": "/pw-wacatalog",
+    "variant": "Singkat",
+    "text": "/pw-wacatalog Gambar produk untuk {Pawang Web, Pawang Sheet, Pawang Otomasi, Pawang Rawat}.",
+    "placeholders": [
+      {
+        "hint": "Pawang Web, Pawang Sheet, Pawang Otomasi, Pawang Rawat",
+        "raw": "{Pawang Web, Pawang Sheet, Pawang Otomasi, Pawang Rawat}"
+      }
+    ]
+  },
+  {
+    "id": "c020",
+    "command": "/pw-wacatalog",
+    "variant": "Detail",
+    "text": "/pw-wacatalog Gambar katalog WhatsApp Business 1:1 untuk layanan \"{nama layanan}\": ikon layanan besar, nama layanan, satu kalimat manfaat \"{manfaat}\", label paket \"{Jinak/Piawai/Sakti}\" dengan warna paket (hijau/oranye/ungu). Latar Krem, kartu Putih Tulang membulat.",
+    "placeholders": [
+      {
+        "hint": "nama layanan",
+        "raw": "{nama layanan}"
+      },
+      {
+        "hint": "manfaat",
+        "raw": "{manfaat}"
+      },
+      {
+        "hint": "Jinak/Piawai/Sakti",
+        "options": [
+          "Jinak",
+          "Piawai",
+          "Sakti"
+        ],
+        "raw": "{Jinak/Piawai/Sakti}"
+      }
+    ]
+  },
+  {
+    "id": "c021",
+    "command": "/pw-wabroadcast",
+    "variant": "Singkat",
+    "text": "/pw-wabroadcast Banner broadcast untuk {promo}.",
+    "placeholders": [
+      {
+        "hint": "promo",
+        "raw": "{promo}"
+      }
+    ]
+  },
+  {
+    "id": "c022",
+    "command": "/pw-wabroadcast",
+    "variant": "Detail",
+    "text": "/pw-wabroadcast Banner broadcast WhatsApp 1:1 dengan judul \"{judul}\", periode \"{tanggal}\", satu CTA Api Dupa \"Balas Chat Ini\", Si Liar. Maksimal 3 baris teks.",
+    "placeholders": [
+      {
+        "hint": "judul",
+        "raw": "{judul}"
+      },
+      {
+        "hint": "tanggal",
+        "needs_user_data": true,
+        "raw": "{tanggal}"
+      }
+    ]
+  },
+  {
+    "id": "c023",
+    "command": "/pw-xpost",
+    "variant": "Singkat",
+    "text": "/pw-xpost {pesan}.",
+    "placeholders": [
+      {
+        "hint": "pesan",
+        "raw": "{pesan}"
+      }
+    ]
+  },
+  {
+    "id": "c024",
+    "command": "/pw-xpost",
+    "variant": "Detail",
+    "text": "/pw-xpost Gambar post X 16:9 (1600x900). Satu pernyataan kuat: \"{kalimat maks 12 kata}\". Tipografi besar Plus Jakarta Sans, latar Biru Malam #14213D, kata kunci Api Dupa, Si Liar kecil di pojok kanan bawah, handle \"pawang.dev\" kecil di kiri bawah.",
+    "placeholders": [
+      {
+        "hint": "kalimat maks 12 kata",
+        "max_words": 12,
+        "raw": "{kalimat maks 12 kata}"
+      }
+    ]
+  },
+  {
+    "id": "c025",
+    "command": "/pw-xthread",
+    "variant": "Singkat",
+    "text": "/pw-xthread {topik}. Gambar pembuka thread.",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c026",
+    "command": "/pw-xthread",
+    "variant": "Detail",
+    "text": "/pw-xthread Gambar pembuka thread X 16:9 berjudul \"{judul thread}\" dengan label \"Thread\" dan angka \"{jumlah} tips\". Si Liar kecil menunjuk judul. Latar Krem #FFF6E9, judul Biru Malam, aksen Api Dupa.",
+    "placeholders": [
+      {
+        "hint": "judul thread",
+        "raw": "{judul thread}"
+      },
+      {
+        "hint": "jumlah",
+        "needs_user_data": true,
+        "raw": "{jumlah}"
+      }
+    ]
+  },
+  {
+    "id": "c027",
+    "command": "/pw-linkedin",
+    "variant": "Singkat",
+    "text": "/pw-linkedin {topik profesional}.",
+    "placeholders": [
+      {
+        "hint": "topik profesional",
+        "raw": "{topik profesional}"
+      }
+    ]
+  },
+  {
+    "id": "c028",
+    "command": "/pw-linkedin",
+    "variant": "Detail",
+    "text": "/pw-linkedin Gambar post LinkedIn 1.91:1 (1200x627). Nada lebih profesional: judul \"{judul}\", satu data atau angka besar \"{angka}\", ikon sederhana, logo kecil saja tanpa elemen dekoratif besar. Latar Putih Tulang #FAFAF7, Biru Malam dan aksen Api Dupa.",
+    "placeholders": [
+      {
+        "hint": "judul",
+        "raw": "{judul}"
+      },
+      {
+        "hint": "angka",
+        "needs_user_data": true,
+        "raw": "{angka}"
+      }
+    ]
+  },
+  {
+    "id": "c029",
+    "command": "/pw-fbpost",
+    "variant": "Singkat",
+    "text": "/pw-fbpost {pesan}.",
+    "placeholders": [
+      {
+        "hint": "pesan",
+        "raw": "{pesan}"
+      }
+    ]
+  },
+  {
+    "id": "c030",
+    "command": "/pw-fbpost",
+    "variant": "Detail",
+    "text": "/pw-fbpost Gambar post Facebook 1.91:1 (1200x630) dengan satu pesan \"{kalimat maks 12 kata}\". Si Liar di kanan, teks besar di kiri dengan Plus Jakarta Sans, latar Krem, aksen Api Dupa, logo kecil dan \"pawang.dev\" di bawah. Margin aman 60px, tidak ada teks penting di tepi.",
+    "placeholders": [
+      {
+        "hint": "kalimat maks 12 kata",
+        "max_words": 12,
+        "raw": "{kalimat maks 12 kata}"
+      }
+    ]
+  },
+  {
+    "id": "c031",
+    "command": "/pw-threads",
+    "variant": "Singkat",
+    "text": "/pw-threads {pernyataan}.",
+    "placeholders": [
+      {
+        "hint": "pernyataan",
+        "raw": "{pernyataan}"
+      }
+    ]
+  },
+  {
+    "id": "c032",
+    "command": "/pw-threads",
+    "variant": "Detail",
+    "text": "/pw-threads Gambar post Threads 4:5 (1080x1350) dengan satu pernyataan singkat \"{kalimat maks 10 kata}\" di tengah, tipografi Plus Jakarta Sans besar, latar {Krem / Biru Malam}, satu kata Api Dupa, Si Liar kecil di pojok. Gaya sederhana dan percakapan, bukan iklan.",
+    "placeholders": [
+      {
+        "hint": "kalimat maks 10 kata",
+        "max_words": 10,
+        "raw": "{kalimat maks 10 kata}"
+      },
+      {
+        "hint": "Krem / Biru Malam",
+        "options": [
+          "Krem",
+          "Biru Malam"
+        ],
+        "raw": "{Krem / Biru Malam}"
+      }
+    ]
+  },
+  {
+    "id": "c033",
+    "command": "/pw-pin",
+    "variant": "Singkat",
+    "text": "/pw-pin {judul pin}.",
+    "placeholders": [
+      {
+        "hint": "judul pin",
+        "raw": "{judul pin}"
+      }
+    ]
+  },
+  {
+    "id": "c034",
+    "command": "/pw-pin",
+    "variant": "Detail",
+    "text": "/pw-pin Pin Pinterest 2:3 (1000x1500). Judul \"{judul 6-9 kata}\" besar di sepertiga atas, ilustrasi {tema} di tengah, URL \"pawang.dev\" di bawah. Latar Krem atau Hijau Sage, tipografi tebal, tampak seperti infografis ringan yang ingin disimpan.",
+    "placeholders": [
+      {
+        "hint": "judul 6-9 kata",
+        "min_words": 6,
+        "max_words": 9,
+        "raw": "{judul 6-9 kata}"
+      },
+      {
+        "hint": "tema",
+        "raw": "{tema}"
+      }
+    ]
+  },
+  {
+    "id": "c035",
+    "command": "/pw-pinchecklist",
+    "variant": "Singkat",
+    "text": "/pw-pinchecklist {topik}. 5 poin.",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c036",
+    "command": "/pw-pinchecklist",
+    "variant": "Detail",
+    "text": "/pw-pinchecklist Pin checklist 2:3 berjudul \"{judul}\" dengan 5 butir centang Api Dupa: \"{poin 1}\", \"{poin 2}\", \"{poin 3}\", \"{poin 4}\", \"{poin 5}\". Kartu Putih Tulang membulat di atas latar Krem, Si Liar kecil mengintip dari pojok.",
+    "placeholders": [
+      {
+        "hint": "judul",
+        "raw": "{judul}"
+      },
+      {
+        "hint": "poin 1",
+        "raw": "{poin 1}"
+      },
+      {
+        "hint": "poin 2",
+        "raw": "{poin 2}"
+      },
+      {
+        "hint": "poin 3",
+        "raw": "{poin 3}"
+      },
+      {
+        "hint": "poin 4",
+        "raw": "{poin 4}"
+      },
+      {
+        "hint": "poin 5",
+        "raw": "{poin 5}"
+      }
+    ]
+  },
+  {
+    "id": "c037",
+    "command": "/pw-og",
+    "variant": "Singkat",
+    "text": "/pw-og {judul halaman}.",
+    "placeholders": [
+      {
+        "hint": "judul halaman",
+        "raw": "{judul halaman}"
+      }
+    ]
+  },
+  {
+    "id": "c038",
+    "command": "/pw-og",
+    "variant": "Detail",
+    "text": "/pw-og OG image 1.91:1 (1200x630) untuk halaman \"{judul halaman}\". Judul maks 8 kata di kiri dengan Plus Jakarta Sans tebal, logo Pawang.dev kecil di kiri atas, Si Liar di kanan bawah, \"pawang.dev\" di kiri bawah. Latar Biru Malam #14213D dengan teks Putih Tulang dan satu kata Api Dupa. Margin aman 80px karena platform sering memotong tepi.",
+    "placeholders": [
+      {
+        "hint": "judul halaman",
+        "raw": "{judul halaman}"
+      }
+    ]
+  },
+  {
+    "id": "c039",
+    "command": "/pw-feature",
+    "variant": "Singkat",
+    "text": "/pw-feature {judul artikel}.",
+    "placeholders": [
+      {
+        "hint": "judul artikel",
+        "raw": "{judul artikel}"
+      }
+    ]
+  },
+  {
+    "id": "c040",
+    "command": "/pw-feature",
+    "variant": "Detail",
+    "text": "/pw-feature Feature image artikel blog 16:9 (1600x900) berjudul \"{judul artikel}\". Ilustrasi konseptual {tema artikel} dengan Si Liar sebagai pemandu. Judul besar di sisi kiri maksimal 2 baris, latar {Krem / Biru Malam / Hijau Sage}, aksen Api Dupa. Tanpa teks selain judul dan \"pawang.dev\". Area tengah aman untuk crop 1:1 dan 4:3.",
+    "placeholders": [
+      {
+        "hint": "judul artikel",
+        "raw": "{judul artikel}"
+      },
+      {
+        "hint": "tema artikel",
+        "raw": "{tema artikel}"
+      },
+      {
+        "hint": "Krem / Biru Malam / Hijau Sage",
+        "options": [
+          "Krem",
+          "Biru Malam",
+          "Hijau Sage"
+        ],
+        "raw": "{Krem / Biru Malam / Hijau Sage}"
+      }
+    ]
+  },
+  {
+    "id": "c041",
+    "command": "/pw-feature-notext",
+    "variant": "Singkat",
+    "text": "/pw-feature-notext {tema}.",
+    "placeholders": [
+      {
+        "hint": "tema",
+        "raw": "{tema}"
+      }
+    ]
+  },
+  {
+    "id": "c042",
+    "command": "/pw-feature-notext",
+    "variant": "Detail",
+    "text": "/pw-feature-notext Ilustrasi 16:9 bertema \"{tema}\" tanpa teks sama sekali. Si Liar dan elemen {laptop / spreadsheet / notifikasi / palu} di sisi kanan, sisi kiri dibiarkan kosong lapang untuk judul. Palet brand, gaya flat modern hangat, ilustrasi bersih, sudut membulat, banyak ruang kosong, sedikit tekstur lembut.",
+    "placeholders": [
+      {
+        "hint": "tema",
+        "raw": "{tema}"
+      },
+      {
+        "hint": "laptop / spreadsheet / notifikasi / palu",
+        "options": [
+          "laptop",
+          "spreadsheet",
+          "notifikasi",
+          "palu"
+        ],
+        "raw": "{laptop / spreadsheet / notifikasi / palu}"
+      }
+    ]
+  },
+  {
+    "id": "c043",
+    "command": "/pw-ads",
+    "variant": "Singkat",
+    "text": "/pw-ads Iklan {Meta / Google Display} untuk {layanan}.",
+    "placeholders": [
+      {
+        "hint": "Meta / Google Display",
+        "options": [
+          "Meta",
+          "Google Display"
+        ],
+        "raw": "{Meta / Google Display}"
+      },
+      {
+        "hint": "layanan",
+        "raw": "{layanan}"
+      }
+    ]
+  },
+  {
+    "id": "c044",
+    "command": "/pw-ads",
+    "variant": "Detail",
+    "text": "/pw-ads Buat 3 variasi banner iklan untuk \"{layanan}\": 1:1, 4:5, dan 9:16. Setiap variasi: satu headline 6 kata, satu manfaat, satu tombol Api Dupa \"Konsultasi Gratis\". Variasi A fokus masalah, B fokus hasil, C fokus harga/paket. Hanya palet brand, logo kecil, teks minimal agar lolos aturan iklan.",
+    "placeholders": [
+      {
+        "hint": "layanan",
+        "raw": "{layanan}"
+      }
+    ]
+  },
+  {
+    "id": "c045",
+    "command": "/pw-paket",
+    "variant": "Detail",
+    "text": "/pw-paket Infografis 4:5 kolom paket: Jinak (hijau, paket dasar), Piawai (oranye, fitur lebih lengkap) dan Sakti (ungu, custom penuh). Tiap kolom: nama, satu kalimat, 4 poin fitur \"{poin}\", harga \"{harga}\". Tandai paket tengah \"Paling Dipilih\". Kartu membulat, ikon sederhana.",
+    "placeholders": [
+      {
+        "hint": "poin",
+        "raw": "{poin}"
+      },
+      {
+        "hint": "harga",
+        "needs_user_data": true,
+        "raw": "{harga}"
+      }
+    ]
+  },
+  {
+    "id": "c046",
+    "command": "/pw-testimoni",
+    "variant": "Singkat",
+    "text": "/pw-testimoni \"{kutipan}\" - {nama}, {usaha}.",
+    "placeholders": [
+      {
+        "hint": "kutipan",
+        "needs_user_data": true,
+        "raw": "{kutipan}"
+      },
+      {
+        "hint": "nama",
+        "needs_user_data": true,
+        "raw": "{nama}"
+      },
+      {
+        "hint": "usaha",
+        "needs_user_data": true,
+        "raw": "{usaha}"
+      }
+    ]
+  },
+  {
+    "id": "c047",
+    "command": "/pw-testimoni",
+    "variant": "Detail",
+    "text": "/pw-testimoni Kartu testimoni 1:1 dengan kutipan \"{kutipan maks 20 kata}\", nama \"{nama}\", usaha \"{usaha}\", lima bintang Api Dupa. Latar Krem, tanda kutip besar Hijau Sage, Si Liar kecil dengan ekspresi bangga. Foto klien opsional: {pakai / tanpa}.",
+    "placeholders": [
+      {
+        "hint": "kutipan maks 20 kata",
+        "max_words": 20,
+        "needs_user_data": true,
+        "raw": "{kutipan maks 20 kata}"
+      },
+      {
+        "hint": "nama",
+        "needs_user_data": true,
+        "raw": "{nama}"
+      },
+      {
+        "hint": "usaha",
+        "needs_user_data": true,
+        "raw": "{usaha}"
+      },
+      {
+        "hint": "pakai / tanpa",
+        "options": [
+          "pakai",
+          "tanpa"
+        ],
+        "raw": "{pakai / tanpa}"
+      }
+    ]
+  },
+  {
+    "id": "c048",
+    "command": "/pw-beforeafter",
+    "variant": "Singkat",
+    "text": "/pw-beforeafter {kasus}.",
+    "placeholders": [
+      {
+        "hint": "kasus",
+        "raw": "{kasus}"
+      }
+    ]
+  },
+  {
+    "id": "c049",
+    "command": "/pw-beforeafter",
+    "variant": "Detail",
+    "text": "/pw-beforeafter Visual dua panel 4:5. Kiri \"Sebelum\": {kondisi kacau, nuansa abu-krem}. Kanan \"Sesudah\": {kondisi rapi, nuansa Biru Malam dan Api Dupa cerah}. Garis pemisah tengah, label jelas, satu metrik hasil \"{mis. hemat 10 jam/minggu}\".",
+    "placeholders": [
+      {
+        "hint": "kondisi kacau, nuansa abu-krem",
+        "raw": "{kondisi kacau, nuansa abu-krem}"
+      },
+      {
+        "hint": "kondisi rapi, nuansa Biru Malam dan Api Dupa cerah",
+        "raw": "{kondisi rapi, nuansa Biru Malam dan Api Dupa cerah}"
+      },
+      {
+        "hint": "mis. hemat 10 jam/minggu",
+        "options": [
+          "mis. hemat 10 jam",
+          "minggu"
+        ],
+        "raw": "{mis. hemat 10 jam/minggu}"
+      }
+    ]
+  },
+  {
+    "id": "c050",
+    "command": "/pw-casestudy",
+    "variant": "Singkat",
+    "text": "/pw-casestudy {klien/proyek}.",
+    "placeholders": [
+      {
+        "hint": "klien/proyek",
+        "options": [
+          "klien",
+          "proyek"
+        ],
+        "raw": "{klien/proyek}"
+      }
+    ]
+  },
+  {
+    "id": "c051",
+    "command": "/pw-casestudy",
+    "variant": "Detail",
+    "text": "/pw-casestudy Carousel 5 slide 4:5 studi kasus \"{klien}\": (1) judul hasil, (2) masalah, (3) solusi Pawang.dev, (4) hasil dengan angka besar, (5) CTA \"Konsultasi Gratis → pawang.dev\". Buat slide satu per satu, gaya identik, palet brand.",
+    "placeholders": [
+      {
+        "hint": "klien",
+        "needs_user_data": true,
+        "raw": "{klien}"
+      }
+    ]
+  },
+  {
+    "id": "c052",
+    "command": "/pw-promo",
+    "variant": "Singkat",
+    "text": "/pw-promo {nama promo, periode}.",
+    "placeholders": [
+      {
+        "hint": "nama promo, periode",
+        "needs_user_data": true,
+        "raw": "{nama promo, periode}"
+      }
+    ]
+  },
+  {
+    "id": "c053",
+    "command": "/pw-promo",
+    "variant": "Detail",
+    "text": "/pw-promo Poster promo {1:1 / 9:16} \"{nama promo}\": benefit \"{benefit}\", periode \"{tanggal}\", syarat singkat \"{syarat}\", tombol Api Dupa \"Klaim di pawang.dev\". Si Liar kecil di pojok. Warna dominan Api Dupa dan Biru Malam, tetap rapi dan tidak ramai.",
+    "placeholders": [
+      {
+        "hint": "1:1 / 9:16",
+        "options": [
+          "1:1",
+          "9:16"
+        ],
+        "raw": "{1:1 / 9:16}"
+      },
+      {
+        "hint": "nama promo",
+        "raw": "{nama promo}"
+      },
+      {
+        "hint": "benefit",
+        "needs_user_data": true,
+        "raw": "{benefit}"
+      },
+      {
+        "hint": "tanggal",
+        "needs_user_data": true,
+        "raw": "{tanggal}"
+      },
+      {
+        "hint": "syarat",
+        "needs_user_data": true,
+        "raw": "{syarat}"
+      }
+    ]
+  },
+  {
+    "id": "c054",
+    "command": "/pw-faq",
+    "variant": "Detail",
+    "text": "/pw-faq Carousel FAQ 4:5. Slide 1 judul \"Sering Ditanyakan\". Slide 2-6: satu pertanyaan per slide dan jawaban maksimal 25 kata. Pertanyaan: \"{Q1}\", \"{Q2}\", \"{Q3}\", \"{Q4}\", \"{Q5}\". Slide terakhir CTA \"Konsultasi Gratis → pawang.dev\". Gaya identik.",
+    "placeholders": [
+      {
+        "hint": "Q1",
+        "raw": "{Q1}"
+      },
+      {
+        "hint": "Q2",
+        "raw": "{Q2}"
+      },
+      {
+        "hint": "Q3",
+        "raw": "{Q3}"
+      },
+      {
+        "hint": "Q4",
+        "raw": "{Q4}"
+      },
+      {
+        "hint": "Q5",
+        "raw": "{Q5}"
+      }
+    ]
+  },
+  {
+    "id": "c055",
+    "command": "/pw-tips",
+    "variant": "Singkat",
+    "text": "/pw-tips {topik}. Tips cepat.",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c056",
+    "command": "/pw-tips",
+    "variant": "Detail",
+    "text": "/pw-tips Kartu tips 1:1: judul \"Tips Pawang #{nomor}\", satu tips \"{tips maks 18 kata}\", ikon sederhana, Si Liar mengacungkan jempol. Seri visual konsisten agar bisa dijadikan template.",
+    "placeholders": [
+      {
+        "hint": "nomor",
+        "needs_user_data": true,
+        "raw": "{nomor}"
+      },
+      {
+        "hint": "tips maks 18 kata",
+        "max_words": 18,
+        "needs_user_data": true,
+        "raw": "{tips maks 18 kata}"
+      }
+    ]
+  },
+  {
+    "id": "c057",
+    "command": "/pw-quote",
+    "variant": "Singkat",
+    "text": "/pw-quote \"{kalimat}\".",
+    "placeholders": [
+      {
+        "hint": "kalimat",
+        "raw": "{kalimat}"
+      }
+    ]
+  },
+  {
+    "id": "c058",
+    "command": "/pw-quote",
+    "variant": "Detail",
+    "text": "/pw-quote Kartu kutipan 1:1 dengan kalimat \"{kalimat}\" di tengah, tipografi besar. Opsi kalimat brand: \"Karena digital yang jinak adalah digital yang berguna.\". Latar Biru Malam #14213D, kata kunci Api Dupa, logo kecil di bawah.",
+    "placeholders": [
+      {
+        "hint": "kalimat",
+        "raw": "{kalimat}"
+      }
+    ]
+  },
+  {
+    "id": "c059",
+    "command": "/pw-announce",
+    "variant": "Singkat",
+    "text": "/pw-announce {pengumuman}.",
+    "placeholders": [
+      {
+        "hint": "pengumuman",
+        "raw": "{pengumuman}"
+      }
+    ]
+  },
+  {
+    "id": "c060",
+    "command": "/pw-announce",
+    "variant": "Detail",
+    "text": "/pw-announce Visual pengumuman 1:1 dan 9:16: label \"Info\" Api Dupa, judul \"{judul}\", detail satu kalimat, Si Liar kecil. Hangat dan sesuai karakter brand (tenang, paham, jinak; hangat, ramah, tidak menakut-nakuti dengan istilah teknis), bukan formal kaku.",
+    "placeholders": [
+      {
+        "hint": "judul",
+        "raw": "{judul}"
+      }
+    ]
+  },
+  {
+    "id": "c061",
+    "command": "/pw-mockup",
+    "variant": "Singkat",
+    "text": "/pw-mockup {topi / kaos / tote bag / kartu nama / ponsel}.",
+    "placeholders": [
+      {
+        "hint": "topi / kaos / tote bag / kartu nama / ponsel",
+        "options": [
+          "topi",
+          "kaos",
+          "tote bag",
+          "kartu nama",
+          "ponsel"
+        ],
+        "raw": "{topi / kaos / tote bag / kartu nama / ponsel}"
+      }
+    ]
+  },
+  {
+    "id": "c062",
+    "command": "/pw-mockup",
+    "variant": "Detail",
+    "text": "/pw-mockup Mockup fotografi produk {merchandise} dengan logo Pawang.dev persis seperti board, bahan {Biru Malam / Krem}, pencahayaan studio lembut, latar kayu hangat, komposisi rapi dengan ruang kosong.",
+    "placeholders": [
+      {
+        "hint": "merchandise",
+        "raw": "{merchandise}"
+      },
+      {
+        "hint": "Biru Malam / Krem",
+        "options": [
+          "Biru Malam",
+          "Krem"
+        ],
+        "raw": "{Biru Malam / Krem}"
+      }
+    ]
+  },
+  {
+    "id": "c063",
+    "command": "/pw-cardnama",
+    "variant": "Singkat",
+    "text": "/pw-cardnama Kartu nama untuk {nama, jabatan}.",
+    "placeholders": [
+      {
+        "hint": "nama, jabatan",
+        "needs_user_data": true,
+        "raw": "{nama, jabatan}"
+      }
+    ]
+  },
+  {
+    "id": "c064",
+    "command": "/pw-cardnama",
+    "variant": "Detail",
+    "text": "/pw-cardnama Kartu nama dua sisi. Depan: logo di tengah, latar Biru Malam #14213D. Belakang: nama \"{nama}\", jabatan \"{jabatan}\", WhatsApp \"{nomor}\", email \"{email}\", \"pawang.dev\", latar Krem #FFF6E9. Tipografi Plus Jakarta Sans + Inter, tata letak lega.",
+    "placeholders": [
+      {
+        "hint": "nama",
+        "needs_user_data": true,
+        "raw": "{nama}"
+      },
+      {
+        "hint": "jabatan",
+        "needs_user_data": true,
+        "raw": "{jabatan}"
+      },
+      {
+        "hint": "nomor",
+        "needs_user_data": true,
+        "raw": "{nomor}"
+      },
+      {
+        "hint": "email",
+        "needs_user_data": true,
+        "raw": "{email}"
+      }
+    ]
+  },
+  {
+    "id": "c065",
+    "command": "/pw-ytthumb",
+    "variant": "Singkat",
+    "text": "/pw-ytthumb {judul video}.",
+    "placeholders": [
+      {
+        "hint": "judul video",
+        "raw": "{judul video}"
+      }
+    ]
+  },
+  {
+    "id": "c066",
+    "command": "/pw-ytthumb",
+    "variant": "Detail",
+    "text": "/pw-ytthumb Thumbnail YouTube 16:9 (1280x720), maksimal 4 kata besar \"{judul}\", Si Liar berekspresi kuat di kanan, latar Biru Malam #14213D kontras tinggi, kata utama Api Dupa dengan outline tipis, tanpa elemen kecil yang hilang saat diperkecil.",
+    "placeholders": [
+      {
+        "hint": "judul",
+        "raw": "{judul}"
+      }
+    ]
+  },
+  {
+    "id": "c067",
+    "command": "/pw-carousel",
+    "variant": "",
+    "text": "/pw-carousel /pw-wastory {topik}",
+    "placeholders": [
+      {
+        "hint": "topik",
+        "raw": "{topik}"
+      }
+    ]
+  },
+  {
+    "id": "c068",
+    "command": "/pw-og",
+    "variant": "",
+    "text": "/pw-og /pw-feature {judul artikel}",
+    "placeholders": [
+      {
+        "hint": "judul artikel",
+        "raw": "{judul artikel}"
+      }
+    ]
+  },
+  {
+    "id": "c069",
+    "command": "/pw-igpost",
+    "variant": "",
+    "text": "/pw-igpost /pw-xpost /pw-linkedin {pesan}",
+    "placeholders": [
+      {
+        "hint": "pesan",
+        "raw": "{pesan}"
+      }
+    ]
+  },
+  {
+    "id": "c070",
+    "command": "/pw-testimoni",
+    "variant": "",
+    "text": "/pw-testimoni /pw-wastory \"{kutipan}\"",
+    "placeholders": [
+      {
+        "hint": "kutipan",
+        "needs_user_data": true,
+        "raw": "{kutipan}"
+      }
+    ]
+  },
+  {
+    "id": "c071",
+    "command": "/pw-promo",
+    "variant": "",
+    "text": "/pw-promo /pw-ads /pw-igstory {promo}",
+    "placeholders": [
+      {
+        "hint": "promo",
+        "raw": "{promo}"
+      }
+    ]
+  },
+  {
+    "id": "c072",
+    "command": "/pw-mascot",
+    "variant": "",
+    "text": "/pw-mascot /pw-stickerpack {tema}",
+    "placeholders": [
+      {
+        "hint": "tema",
+        "raw": "{tema}"
+      }
+    ]
+  }
+]
