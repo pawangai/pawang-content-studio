@@ -2,5 +2,10 @@ __pycache__/
 *.pyc
 .DS_Store
 examples/pawang-dev/generated/*.png
-skills/*.zip
 *_report.md
+
+# Arsip, bundle, dan patch hasil ekspor (tidak pernah di-commit)
+*.bundle
+*.patch
+*.tar.gz
+*.zip
