@@ -171,7 +171,7 @@ Coba lebih dulu tanpa risiko: jalankan uji asap `python scripts/smoke_test.py` d
 
 ### Plugin marketplace (Claude Code, Codex, Antigravity, claude.ai)
 
-Selain unggah per skill, repo ini juga marketplace plugin yang memasang ke-14 skill sekaligus: `/plugin marketplace add OWNER/pawang-content-studio` (Claude Code), `codex plugin marketplace add OWNER/pawang-content-studio` (Codex), `agy plugin install https://github.com/OWNER/pawang-content-studio` (Antigravity), dan sinkron GitHub di admin organisasi claude.ai. Panduan lengkap: [`docs/MARKETPLACE.md`](docs/MARKETPLACE.md).
+Selain unggah per skill, repo ini juga marketplace plugin yang memasang ke-14 skill sekaligus: `/plugin marketplace add pawangai/pawang-content-studio` (Claude Code), `codex plugin marketplace add pawangai/pawang-content-studio` (Codex), `agy plugin install https://github.com/pawangai/pawang-content-studio` (Antigravity), dan sinkron GitHub di admin organisasi claude.ai. Panduan lengkap: [`docs/MARKETPLACE.md`](docs/MARKETPLACE.md).
 
 ---
 

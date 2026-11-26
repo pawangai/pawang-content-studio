@@ -2,8 +2,6 @@
 
 Repo ini sekaligus menjadi **marketplace plugin** untuk Claude Code, Codex, Antigravity (`agy`), dan claude.ai/Cowork. Isinya satu plugin, `pawang-content-studio`, yang membungkus ke-14 skill.
 
-Ganti `OWNER` pada perintah di bawah dengan nama akun atau organisasi GitHub tempat repo ini dipublikasikan.
-
 | Platform | Berkas katalog / manifest | Identitas |
 |---|---|---|
 | Claude Code | `.claude-plugin/marketplace.json`, `plugins/pawang-content-studio/.claude-plugin/plugin.json` | `pawang-content-studio@pawang-studio` |
@@ -14,7 +12,7 @@ Ganti `OWNER` pada perintah di bawah dengan nama akun atau organisasi GitHub tem
 ## Claude Code
 
 ```text
-/plugin marketplace add OWNER/pawang-content-studio
+/plugin marketplace add pawangai/pawang-content-studio
 /plugin install pawang-content-studio@pawang-studio
 ```
 
@@ -23,7 +21,7 @@ Uji lokal tanpa memasang: `claude --plugin-dir plugins/pawang-content-studio`. V
 ## Codex
 
 ```bash
-codex plugin marketplace add OWNER/pawang-content-studio
+codex plugin marketplace add pawangai/pawang-content-studio
 codex plugin add pawang-content-studio@pawang-studio
 # perbarui setelah ada rilis baru
 codex plugin marketplace upgrade pawang-studio
@@ -35,7 +33,7 @@ Alternatif lewat antarmuka: buka `/plugins`, pilih marketplace **Pawang Content 
 
 ```bash
 # dari GitHub
-agy plugin install https://github.com/OWNER/pawang-content-studio
+agy plugin install https://github.com/pawangai/pawang-content-studio
 
 # dari clone lokal
 agy plugin validate ./plugins/pawang-content-studio
@@ -48,7 +46,7 @@ Skill muncul sebagai `/<nama-skill>`. Tanpa plugin, salin isi `skills/` ke `~/.g
 ## claude.ai
 
 - **Akun pribadi**: unggah per skill dari `dist/*.skill` (lihat README bagian 4).
-- **Team/Enterprise (pemilik organisasi)**: buka *Organization settings > Plugins & skills > Marketplaces*, tambahkan repo ini lewat **Sync from GitHub** (`OWNER/pawang-content-studio`), lalu atur ketersediaan plugin per grup. Cowork dan Skills harus aktif, dan Claude GitHub App harus terpasang pada repo. Sinkron membaca `.claude-plugin/marketplace.json`; sumber relatif `./plugins/...` didukung penuh.
+- **Team/Enterprise (pemilik organisasi)**: buka *Organization settings > Plugins & skills > Marketplaces*, tambahkan repo ini lewat **Sync from GitHub** (`pawangai/pawang-content-studio`), lalu atur ketersediaan plugin per grup. Cowork dan Skills harus aktif, dan Claude GitHub App harus terpasang pada repo. Sinkron membaca `.claude-plugin/marketplace.json`; sumber relatif `./plugins/...` didukung penuh.
 - **Tanpa GitHub**: jalankan `python scripts/build_plugins.py --zip`, lalu unggah `dist-plugin/pawang-content-studio-<versi>.zip` lewat unggahan plugin manual di halaman admin yang sama. ZIP ini tidak di-commit (`*.zip` ada di `.gitignore`).
 
 ## Memperbarui dan merilis
