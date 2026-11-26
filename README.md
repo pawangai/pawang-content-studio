@@ -169,6 +169,10 @@ Coba lebih dulu tanpa risiko: jalankan uji asap `python scripts/smoke_test.py` d
 
 **Memicu skill**: skill aktif otomatis ketika permintaan cocok dengan deskripsinya. Jika tidak terpicu, sebut namanya secara eksplisit: *"Gunakan skill asset-qa untuk memeriksa gambar ini."*
 
+### Plugin marketplace (Claude Code, Codex, Antigravity, claude.ai)
+
+Selain unggah per skill, repo ini juga marketplace plugin yang memasang ke-14 skill sekaligus: `/plugin marketplace add OWNER/pawang-content-studio` (Claude Code), `codex plugin marketplace add OWNER/pawang-content-studio` (Codex), `agy plugin install https://github.com/OWNER/pawang-content-studio` (Antigravity), dan sinkron GitHub di admin organisasi claude.ai. Panduan lengkap: [`docs/MARKETPLACE.md`](docs/MARKETPLACE.md).
+
 ---
 
 ## 5. Workspace dan MCP
@@ -271,6 +275,10 @@ pawang-content-studio/
 │   └── longform-writer/           #   SKILL.md, scripts/{article_check,script_check}.py, templates/, references/, evals/
 ├── dist/                          # HASIL KEMAS: 14 berkas .skill, siap diunggah ke Claude.ai
 ├── dist-short/                    # versi cadangan: deskripsi <= 200 karakter
+├── .claude-plugin/                # marketplace.json untuk Claude Code dan claude.ai (dibuat build_plugins.py)
+├── .agents/plugins/               # marketplace.json untuk Codex (dibuat build_plugins.py)
+├── .antigravity-plugin/           # plugin.json agy untuk instal dari URL GitHub (dibuat build_plugins.py)
+├── plugins/pawang-content-studio/ # HASIL GENERASI: 14 skill (tanpa evals/) + manifest tiga platform
 ├── docs/
 │   ├── ALUR-KERJA.md              # 8 tahap utama (11 langkah), kalimat yang diketik, keluaran
 │   ├── WORKSPACE-MCP.md           # Drive, Sheets, Calendar, Gmail, Notion, keamanan
@@ -292,6 +300,7 @@ pawang-content-studio/
 │       └── generated/             # keluaran contoh dari smoke test (command, jadwal, caption, balasan, CSV, ICS)
 └── scripts/
     ├── build_all.py               # validasi semua skill + kemas ke dist/ (--short untuk dist-short/)
+    ├── build_plugins.py           # sinkronkan plugins/ + manifest marketplace (--check untuk CI, --zip untuk admin claude.ai)
     └── smoke_test.py              # uji alur end-to-end dengan brand contoh
 ```
 
@@ -386,7 +395,7 @@ python scripts/smoke_test.py
 1. Buat `skills/<nama>/SKILL.md` (frontmatter `name` sama dengan nama folder; `description` satu baris tanpa `: ` bila tidak diberi tanda kutip) dan minimal 2 kasus uji di `skills/<nama>/evals/`.
 2. Daftarkan di `skills.json` beserta `short_description` (`<= 200` karakter).
 3. Jika skill membaca ekspor dari `profile.json`, tambahkan nama target dan field wajibnya ke `TARGET_REQ` serta percabangan `export()` di `skills/brand-profile-builder/scripts/profile.py`, lalu tambahkan langkah ujinya di `scripts/smoke_test.py`.
-4. Jalankan `python scripts/build_all.py --short` dan `python scripts/smoke_test.py`.
+4. Jalankan `python scripts/build_all.py --short`, `python scripts/build_plugins.py`, dan `python scripts/smoke_test.py`.
 
 **Menambah command permanen**:
 - **Gambar (`skills/brand-command-pack/scripts/catalog.py`)**: tambahkan tuple 6 elemen `(name, description, size, requires, singkat, detail)` ke `SECTIONS`. Token `[[...]]` yang tersedia dihitung di `build_tokens()` pada `build_pack.py` (`[[BRAND]]`, `[[BRAND_SHORT]]`, `[[P]]`, `[[TAGLINE]]`, `[[CTA]]`, `[[CTA_SHORT]]`, `[[URL]]`, `[[HANDLE]]`, `[[LOGO_DESC]]`, `[[STYLE]]`, `[[TONE]]`, `[[FONT_H]]`, `[[FONT_B]]`, `[[DARK]]`, `[[ACCENT]]`, `[[LIGHT]]`, `[[SUPPORT]]`, `[[OFFWHITE]]` beserta `*_NAME`, `[[MASCOT]]`, `[[M_MAIN]]`, `[[SERVICES_LIST]]`, `[[PACKAGES_NAMES]]`).

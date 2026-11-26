@@ -1,0 +1,34 @@
+{
+  "name": "pawang-content-studio",
+  "version": "1.0.0",
+  "description": "14 skill alur konten end-to-end: brand board, command gambar/video, jadwal, caption, artikel, QA, balasan DM, dan evaluasi performa.",
+  "author": {
+    "name": "Pawang.dev"
+  },
+  "keywords": [
+    "content",
+    "konten",
+    "brand",
+    "social-media",
+    "caption",
+    "calendar",
+    "umkm"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Pawang Content Studio",
+    "shortDescription": "14 skill alur konten end-to-end: brand board, command gambar/video, jadwal, caption, artikel, QA, balasan DM, dan evaluasi performa.",
+    "longDescription": "Rangkaian 14 skill yang tersambung lewat satu profile.json: identitas brand, command gambar dan video, panduan teks dan layout, jadwal bertanggal, caption, artikel dan skrip YouTube, jawaban Quora, QA aset, balasan DM, dan evaluasi performa.",
+    "developerName": "Pawang.dev",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Buatkan brand board standar untuk brand saya",
+      "Buatkan jadwal konten 4 minggu mulai Senin depan, paket Ringan",
+      "Cek duplikat topik konten ini sebelum saya produksi"
+    ]
+  }
+}

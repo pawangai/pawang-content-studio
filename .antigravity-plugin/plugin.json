@@ -1,0 +1,24 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "pawang-content-studio",
+  "displayName": "Pawang Content Studio",
+  "version": "1.0.0",
+  "description": "14 skill alur konten end-to-end: brand board, command gambar/video, jadwal, caption, artikel, QA, balasan DM, dan evaluasi performa.",
+  "suggestedPrompts": [
+    "Buatkan brand board standar untuk brand saya",
+    "Buatkan jadwal konten 4 minggu mulai Senin depan, paket Ringan",
+    "Cek duplikat topik konten ini sebelum saya produksi"
+  ],
+  "author": {
+    "name": "Pawang.dev"
+  },
+  "keywords": [
+    "content",
+    "konten",
+    "brand",
+    "social-media",
+    "caption",
+    "calendar",
+    "umkm"
+  ]
+}

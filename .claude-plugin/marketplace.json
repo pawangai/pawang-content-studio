@@ -1,0 +1,31 @@
+{
+  "name": "pawang-studio",
+  "owner": {
+    "name": "Pawang.dev"
+  },
+  "metadata": {
+    "description": "Rangkaian 14 skill yang tersambung lewat satu profile.json: identitas brand, command gambar dan video, panduan teks dan layout, jadwal bertanggal, caption, artikel dan skrip YouTube, jawaban Quora, QA aset, balasan DM, dan evaluasi performa.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pawang-content-studio",
+      "source": "./plugins/pawang-content-studio",
+      "description": "14 skill alur konten end-to-end: brand board, command gambar/video, jadwal, caption, artikel, QA, balasan DM, dan evaluasi performa.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pawang.dev"
+      },
+      "category": "Productivity",
+      "keywords": [
+        "content",
+        "konten",
+        "brand",
+        "social-media",
+        "caption",
+        "calendar",
+        "umkm"
+      ]
+    }
+  ]
+}

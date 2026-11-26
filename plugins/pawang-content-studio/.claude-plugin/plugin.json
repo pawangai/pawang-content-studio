@@ -1,0 +1,17 @@
+{
+  "name": "pawang-content-studio",
+  "version": "1.0.0",
+  "description": "14 skill alur konten end-to-end: brand board, command gambar/video, jadwal, caption, artikel, QA, balasan DM, dan evaluasi performa.",
+  "author": {
+    "name": "Pawang.dev"
+  },
+  "keywords": [
+    "content",
+    "konten",
+    "brand",
+    "social-media",
+    "caption",
+    "calendar",
+    "umkm"
+  ]
+}
